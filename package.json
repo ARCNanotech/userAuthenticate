@@ -1,0 +1,23 @@
+//package.json
+{
+	"author": {
+		"name": "Ron B. Thomas",
+		"email": "ron.thomas2@student.tdsb.on.ca",
+		"url": "http://bit.ly/arcware"
+	},
+	"name": "userauth",
+	"description": "authentication for web-apps",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
+	},
+	"main": "userauth.js",
+	"devDependencies": {
+		"bcryptjs": "^2.2.0",
+		"bcrypt-nodejs": "^0.0.3",
+		"express": "^4.13.1",
+		"express-handlebars": "^2.0.1",
+		
+	},
+}
