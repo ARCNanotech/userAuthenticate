@@ -6,18 +6,41 @@
 		"url": "http://bit.ly/arcware"
 	},
 	"name": "userauth",
-	"description": "authentication for web-apps",
-	"version": "0.0.1",
+	"description": "authentication for web-app users and admins",
+	"tags": [
+		"authenticate",
+		"web",
+		"app",
+		"userauth",
+		"user-authentication",
+		"function",
+		"device",
+	],
+	"version": "0.1.0",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
 	},
+	"bugs": {
+		"url": "https://github.com/ArcanaMagus/userAuthenticate"
+	},
 	"main": "userauth.js",
+	"url": "http://bit.ly/arcware",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+			}
 	"devDependencies": {
 		"bcryptjs": "^2.2.0",
 		"bcrypt-nodejs": "^0.0.3",
 		"express": "^4.13.1",
 		"express-handlebars": "^2.0.1",
-		
 	},
+	"optionalDependencies": {},
+	"scripts": {
+		"test": "node lib/config.js"
+	},
+	"gitHead": ""
 }
