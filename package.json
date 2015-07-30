@@ -1,0 +1,42 @@
+//package.json
+	{
+	"author": {
+		"name": "Ron B. Thomas",
+		"email": "ron.thomas2@student.tdsb.on.ca",
+		"url": "http://bit.ly/arcware"
+	},
+	"name": "userauth",
+	"config": {
+		"port": "8080" }
+	},
+	"description": "authentication for web-apps",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
+ 		 },	"main": "userauth.js",
+	"devDependencies": {
+		"bcryptjs": "^2.2.0",
+		"bcrypt-nodejs": "^0.0.3",
+		"express": "^4.13.1",
+		"express-handlebars": "^2.0.1",
+		"morgan": "^1.6.1",
+		"twitter-api": "^1.0.4",
+		"body-parser": "^1.13.2",
+		"cookie-parser": "^1.3.5",
+		"method-override": "^2.3.4",
+		"express-session": "^1.8.2",
+		"orchestrate": "^0.4.6",
+		"passport": "^0.2.2",
+		"passport-youtube": "^0.0.6",
+		"passport-facebook": "^2.0.0",
+		"passport-google": "^0.3.0",
+		"passport-local": "^1.0.0",
+		"passport-twitter": "^1.0.3",
+		"q": "^1.4.1",
+	},
+	 "scripts": {
+		  "start" : "npm_package_config_port userauth.js" } 
+	},
+	"license": "MIT",
+	"gitHead": 
