@@ -15,7 +15,7 @@
 		"user-authentication",
 		"function",
 		"device",
-	],
+ "value"	],: "property"
 	"version": "0.1.0",
 	"repository": {
 		"type": "git",
@@ -32,7 +32,8 @@
 	},
 	"dependencies": {
 			}
-	"devDependencies": {
+}"devDependencies": {
+		
 		"bcryptjs": "^2.2.0",
 		"bcrypt-nodejs": "^0.0.3",
 		"express": "^4.13.1",
