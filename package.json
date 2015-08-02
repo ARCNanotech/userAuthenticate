@@ -6,7 +6,7 @@
   },
 	"name": "userAuth",
 	"description": "authentication for web-app users and admins",
-		"version": "1.0",
+		"version": "0.0.1",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
@@ -20,5 +20,19 @@
 	"bugs": {
 		"url": "https://github.com/ArcanaMagus/userAuthenticate"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"bcrypt-nodejs": "^0.0.3",
+		"express": "^4.13.2",
+		"express3-handlebars": "^0.5.2",
+		"orchestrate": "^0.4.6",
+		"passport": "^0.2.2",
+		"passport-youtube": "^0.0.6",
+		"passport-facebook": "^2.0.0",
+		"passport-google": "^0.3.0",
+		"passport-local": "^1.0.0",
+		"passport-twitter": "^1.0.3",
+		"q": "^1.4.1"
+	}
 }
+	
+	
