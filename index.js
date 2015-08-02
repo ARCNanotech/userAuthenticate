@@ -1,1 +1,0 @@
-var xtype = require('xtype');
