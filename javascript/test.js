@@ -14,4 +14,12 @@ describe('MySql Database', function () {
 			expect(err).to.equal(null);
 		});
 	});
-	})	
+	it('should retrieve that name', function () {
+		db('things')
+		.where({ name: 'Johnson' })
+		.select('name')
+		.then(function (name) {
+			expect(name[0].name).to.equal('Jane');
+		});
+	});
+  });	
