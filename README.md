@@ -24,3 +24,6 @@ Node Module for UserAuth in web apps
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
+  
+  Commands: <code> get - The standard get request. Requires a HTTP(S) target
+  
