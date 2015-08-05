@@ -23,6 +23,8 @@
   "build": 52,
   "customData": {
     "release": "1.1",
+    "staging": true,
+    
     "server": "test.saucelabs.com"
   }
 	"description": "authentication for web-app users and admins",
