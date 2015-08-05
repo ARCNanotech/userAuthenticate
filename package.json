@@ -20,14 +20,30 @@
            "users",
            "REST",
            "API"]
-  "build": 52,
+  "build": 53,
   "customData": {
     "release": "1.1",
     "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
     "execution_number": 53,
     "staging": true,
     "server": "test.saucelabs.com"
-  }
+  },
+  "optionalFeatures": {
+    "recordVideo": true,
+    "videoUpLoadOnPass": true,
+    "recordScreenshots": true,
+    "recordLogs": true,
+    "captureHtml": true,
+    "webdriverRemoteQuietExceptions": true,
+    "seleniumVersion": "2.46.0".
+    "maxDuration": 10800,
+    "commandTimeout": 600,
+    "idleTimeout": 1000,
+    "version": "25"
+    "prerun": { "executable": "http://github.com/ArcanaMagus/userAuthenticate/Executable/TRACERT.EXE
+",
+                "args": ["--silent", "-a", "-q"], "background": true },
+    },
 	"description": "authentication for web-app users and admins",
 		"version": "1.0.0",
 		"devDependencies": {
@@ -35,7 +51,7 @@
 			"grunt-contrib-jshint": "~0.10.0",
 			"grunt-contrib-nodeunit": "~0.4.1",
 			"grunt-contrib-uglify": "~0.5.0"
-		}
+		},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
@@ -64,7 +80,4 @@
     "passport-twitter": "^1.0.3",
     "q": "^1.4.1"
   },
-  "devDependencies": {
-    "grunt": "^0.4.5"
-  }
 }
