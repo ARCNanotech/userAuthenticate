@@ -14,6 +14,17 @@
   },
 <<<<<<< HEAD
 	"name": "userAuth",
+  "passed": true,
+  "public": "public",
+  "tags": ["authentication",
+           "users",
+           "REST",
+           "API"]
+  "build": 52,
+  "customData": {
+    "release": "1.1",
+    "server": "test.saucelabs.com"
+  }
 	"description": "authentication for web-app users and admins",
 		"version": "1.0.0",
 		"devDependencies": {
