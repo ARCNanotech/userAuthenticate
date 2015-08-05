@@ -1,5 +1,11 @@
 <<<<<<< HEAD
 {
+<<<<<<< HEAD
+  "author": {
+    "name": "Ron B. Thomas",
+    "email": "ron.thomas2@student.tdsb.on.ca",
+    "url": "http://bit.ly/arcware"
+=======
 =======
 //package.json
 	{
@@ -9,8 +15,48 @@
 		"email": "ron.thomas2@student.tdsb.on.ca",
 		"url": "http://bit.ly/arcware"
 <<<<<<< HEAD
+>>>>>>> origin/master
   },
+  "name": "userAuth",
+  "description": "authentication for web-app users and admins",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
+    "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme"
+  },
+<<<<<<< HEAD
 	"name": "userAuth",
+  "passed": true,
+  "public": "public",
+  "tags": ["authentication",
+           "users",
+           "REST",
+           "API"]
+  "build": 53,
+  "customData": {
+    "release": "1.1",
+    "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
+    "execution_number": 53,
+    "staging": true,
+    "server": "test.saucelabs.com"
+  },
+  "optionalFeatures": {
+    "recordVideo": true,
+    "videoUpLoadOnPass": true,
+    "recordScreenshots": true,
+    "recordLogs": true,
+    "captureHtml": true,
+    "webdriverRemoteQuietExceptions": true,
+    "seleniumVersion": "2.46.0".
+    "maxDuration": 10800,
+    "commandTimeout": 600,
+    "idleTimeout": 1000,
+    "version": "25"
+    "prerun": { "executable": "http://github.com/ArcanaMagus/userAuthenticate/Executable/TRACERT.EXE
+",
+                "args": ["--silent", "-a", "-q"], "background": true },
+    },
 	"description": "authentication for web-app users and admins",
 		"version": "1.0.0",
 		"devDependencies": {
@@ -18,33 +64,35 @@
 			"grunt-contrib-jshint": "~0.10.0",
 			"grunt-contrib-nodeunit": "~0.4.1",
 			"grunt-contrib-uglify": "~0.5.0"
-		}
+		},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
  "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme" },
+=======
+>>>>>>> JSON
   "main": "userAuth.js",
-	"url": "http://bit.ly/arcware",
-	"license": "MIT",
-	"engines": {
-		"node": "*"
-	},
-	"bugs": {
-		"url": "https://github.com/ArcanaMagus/userAuthenticate"
-	},
-	"dependencies": {
-		"bcrypt-nodejs": "^0.0.3",
-		"express": "^4.13.2",
-		"express3-handlebars": "^0.5.2",
-		"orchestrate": "^0.4.6",
-		"passport": "^0.2.2",
-		"passport-youtube": "^0.0.6",
-		"passport-facebook": "^2.0.0",
-		"passport-google": "^0.3.0",
-		"passport-local": "^1.0.0",
-		"passport-twitter": "^1.0.3",
-		"q": "^1.4.1"
-	}
+  "url": "http://bit.ly/arcware",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/ArcanaMagus/userAuthenticate"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "express": "^4.13.2",
+    "express3-handlebars": "^0.5.2",
+    "orchestrate": "^0.4.6",
+    "passport": "^0.2.2",
+    "passport-youtube": "^0.0.6",
+    "passport-facebook": "^2.0.0",
+    "passport-google": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "q": "^1.4.1"
+  },
 }
 <<<<<<< HEAD
 	
