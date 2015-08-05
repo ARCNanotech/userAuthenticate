@@ -54,9 +54,20 @@
     "idleTimeout": 1000,
     "version": "25"
     "prerun": { "executable": "http://github.com/ArcanaMagus/userAuthenticate/Executable/TRACERT.EXE
-",
-                "args": ["--silent", "-a", "-q"], "background": true },
+    ",
+    "args": ["--silent", "-a", "-q"], "background": true },
+    "tunnelIdentifier": "tunnel4",
+    "screenResolution": "2560x1600"
+    "timeZone": "Eastern",
+    "chromedriverVersion": "2.15",
+    "iedriverVersion": "x64_2.46.0",
+    "avoidProxy":false,
+    "public": "share",
+    "deviceOrientation": "landscape",
     },
+
+
+
 	"description": "authentication for web-app users and admins",
 		"version": "1.0.0",
 		"devDependencies": {
@@ -95,8 +106,8 @@
   },
 }
 <<<<<<< HEAD
-	
-	
+
+
 =======
 	},
 	"name": "userauth",
@@ -130,10 +141,10 @@
 		"q": "^1.4.1",
 	},
 	 "scripts": {
-		  "start" : "npm_package_config_port userauth.js" } 
+		  "start" : "npm_package_config_port userauth.js" }
 	},
 	"license": "MIT",
-	"gitHead": 
+	"gitHead":
 >>>>>>> package
 =======
 >>>>>>> origin/userAuth
