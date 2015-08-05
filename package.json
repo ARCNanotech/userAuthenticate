@@ -23,8 +23,9 @@
   "build": 52,
   "customData": {
     "release": "1.1",
+    "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
+    "execution_number": 53,
     "staging": true,
-    
     "server": "test.saucelabs.com"
   }
 	"description": "authentication for web-app users and admins",
