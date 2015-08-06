@@ -57,6 +57,7 @@
     ",
     "args": ["--silent", "-a", "-q"], "background": true },
     "tunnelIdentifier": "tunnel4",
+    "parentTunnel": "my-tun2",
     "screenResolution": "2560x1600"
     "timeZone": "Eastern",
     "chromedriverVersion": "2.15",
