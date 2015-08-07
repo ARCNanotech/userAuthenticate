@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 //package.json
 	{
+=======
+{
+>>>>>>> origin/package
 	"author": {
 		"name": "Ron B. Thomas",
 		"email": "ron.thomas2@student.tdsb.on.ca",
 		"url": "http://bit.ly/arcware"
+<<<<<<< HEAD
 	},
 	"name": "userauth",
 	"config": {
@@ -40,3 +45,30 @@
 	},
 	"license": "MIT",
 	"gitHead": 
+=======
+  },
+	"name": "userAuth",
+	"description": "authentication for web-app users and admins",
+		"version": "0.1.1",
+		"devDependencies": {
+			"grunt": "~0.4.5",
+			"grunt-contrib-jshint": "~0.10.0",
+			"grunt-contrib-nodeunit": "~0.4.1",
+			"grunt-contrib-uglify": "~0.5.0"
+		}
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
+ "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme" },
+  "main": "userAuth.js",
+	"url": "http://bit.ly/arcware",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"bugs": {
+		"url": "https://github.com/ArcanaMagus/userAuthenticate"
+	},
+	"dependencies": {}
+}
+>>>>>>> origin/package
