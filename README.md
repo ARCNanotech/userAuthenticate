@@ -28,9 +28,22 @@ Node Module for UserAuth in web apps
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
-  
-  Commands: <code> get - The standard get request. Requires a HTTP(S) target</code>
-            <code>(**e.x** userAuth get https://ha.ckme.com) 
+   
+                  Commands:
+  <code> get - The standard get request. Requires a HTTP(S) target </code>
+            <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
             
-            <code> set - Set a variable, this can wither be global or local </code>
+  <code>set - Set a variable, this can either be global or local </code>
+          This command can define any range of variables from programming
+          implements, to Database variables. The Syntax is as follows:
+          
+  Key: <code>set</code>
+  
+  Key Value <code>String, Integer</code>
+          
+  When you have a specific global constant that needs to be set,
+  a command can be formed in the format:
+          
+ <code>set VARIABLE=value</code>
+ <code>(**e.x** userAuth set var=1)</code>
   
