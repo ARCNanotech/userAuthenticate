@@ -30,9 +30,13 @@ Node Module for UserAuth in web apps
   <code>userAuth [cmd(s)] [opt(s)] </code>
    
                   Commands:
+  **GET Command**
+  
   <code> get - The standard get request. Requires a HTTP(S) target </code>
             <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
             
+  **SET Command**  
+  
   <code>set - Set a variable, this can either be global or local </code>
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
