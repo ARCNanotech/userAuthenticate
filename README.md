@@ -1,5 +1,9 @@
 # userAuthenticate
+**This is the repository for userAuth.**
+
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ArcanaMagus/userAuthenticate/blob/userAuth/LICENSE)
+[![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 
 
 Node Module for UserAuth in web apps
