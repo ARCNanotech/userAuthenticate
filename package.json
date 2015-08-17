@@ -26,6 +26,10 @@
     "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
 	"name": "userAuth",
   "passed": true,
   "public": "public",
@@ -81,8 +85,12 @@
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
  "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme" },
+<<<<<<< HEAD
+>>>>>>> package
+=======
 =======
 >>>>>>> JSON
+>>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
   "main": "userAuth.js",
   "url": "http://bit.ly/arcware",
   "license": "MIT",
