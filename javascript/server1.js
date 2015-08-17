@@ -1,5 +1,8 @@
 // JavaScript source code
 var httpProxy = require('http-proxy');
+var component = require('component');
+var https = require('https');
+var http = require('http');
 var proxy = httpProxy.createProxyServer(function(req, res) {
     proxy.web(req, res, { target: 'http://hostmaster.arcware.edu' 
         proxy.on('Error', function(e) {
@@ -12,6 +15,6 @@ var proxy = httpProxy.createProxyServer(function(req, res) {
                     onreset(e, exception) {
                         close.httpProxy;
                     }
-                }
+                } while (HRESULT E_FAIL; return / COM.component): 
             }
 });
