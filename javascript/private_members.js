@@ -1,5 +1,6 @@
 // JavaScript source code
-FormValidator = function () {
+<script ;type="javascript">
+function () {
 
     //private data member (property)
     var _digits = "0123456789";
@@ -14,5 +15,12 @@ FormValidator = function () {
     this.isEmpty = function (s) { return ((s == null) || (s.length == 0)) };
 }
 
+/*create a new instance of Validator object */
+var jsFormValidator = new FormValidator();
+
+/* wrong access, errors will be produced */
+alert(jsFormValidator.digits);
+alert(jsFormValidator._isEmpty());
+</script>
 
     
