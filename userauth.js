@@ -25,6 +25,8 @@ exports.localReg = function (username, password) {
       To location of solutions
       */
 
+//** Add an option for concurrent streams **//
+
 var util = require('util'),
     colors = require('colors')
 
