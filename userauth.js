@@ -31,3 +31,6 @@ var http = require('http');
     // 
     // Create proxy with the target set to arc-tech.visualstudio.com
     //
+    httpProxy.createProxyServer({
+        target: 'https://arc-tech.vistualstudio.com'
+    }).listen(5087);
