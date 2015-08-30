@@ -8,7 +8,9 @@
 
 Node Module for UserAuth in web apps
   This package uses the node infrastructure, for
-  creating highly scalable network platforms. 
+  creating highly scalable network platforms.
+   
+  **Featuring certified SSL protection**
   
   - Applying the dynamic platform of, buffer-targeted elements,
   This vector can implement a variety of tools for interacting,
@@ -51,3 +53,8 @@ Node Module for UserAuth in web apps
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
+<<<<<<< HEAD
+  - Apply cryptographic method of encryption accross all user data types,
+  
+=======
+>>>>>>> 8d819c533772df471465937efe9576d2411660aa
