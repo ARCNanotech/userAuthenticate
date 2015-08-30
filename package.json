@@ -115,14 +115,15 @@
 		"port": "8080" }
 	},
 	"description": "authentication for web-apps",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
  		 },	"main": "userauth.js",
 	"devDependencies": {
 		"bcryptjs": "^2.2.0",
-		"bcrypt-nodejs": "^0.0.3",
+    "bcrypt-nodejs": "^0.0.3",
+    "http-proxy":  "~1.0"
 		"express": "^4.13.1",
 		"express-handlebars": "^2.0.1",
 		"morgan": "^1.6.1",
