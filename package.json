@@ -133,7 +133,8 @@
 		"passport-google": "^0.3.0",
 		"passport-local": "^1.0.0",
 		"passport-twitter": "^1.0.3",
-		"q": "^1.4.1",
+    "q": "^1.4.1",
+    "bower":  "#1.0.1"
 	},
 	 "scripts": {
 		  "start" : "npm_package_config_port userauth.js" }
