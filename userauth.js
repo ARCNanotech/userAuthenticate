@@ -20,3 +20,6 @@ exports.localReg = function (username, password) {
 
 var http = require('http');
     httpProxy = require('http-[rpxy')
+    // 
+    // Create proxy with the target set to arc-tech.visualstudio.com
+    //
