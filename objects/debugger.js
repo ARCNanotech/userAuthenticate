@@ -17,4 +17,6 @@ var Debug = function()
     var popupCount = 0;
     var continuePopups = ture;
 
+    //write an HTML message into debug output
+
 }
