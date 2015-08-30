@@ -4,7 +4,7 @@
   "author": {
     "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
-    "url": "http://bit.ly/arcware"
+    "url": "http://bit.ly/arcware",
 =======
 =======
 //package.json
@@ -13,7 +13,7 @@
 	"author": {
 		"name": "Ron B. Thomas",
 		"email": "ron.thomas2@student.tdsb.on.ca",
-		"url": "http://bit.ly/arcware"
+		"url": "http://bit.ly/arcware",
 <<<<<<< HEAD
 >>>>>>> origin/master
   },
@@ -30,13 +30,12 @@
 =======
 =======
 >>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
-	"name": "userAuth",
-  "passed": true,
+	"passed": true,
   "public": "public",
   "tags": ["authentication",
            "users",
            "REST",
-           "API"]
+           "API"],
   "build": 53,
   "customData": {
     "release": "1.1",
@@ -52,13 +51,12 @@
     "recordLogs": true,
     "captureHtml": true,
     "webdriverRemoteQuietExceptions": true,
-    "seleniumVersion": "2.46.0".
+    "seleniumVersion": "2.46.0",
     "maxDuration": 10800,
     "commandTimeout": 600,
     "idleTimeout": 1000,
-    "version": "25"
-    "prerun": { "executable": "http://github.com/ArcanaMagus/userAuthenticate/Executable/TRACERT.EXE
-    ",
+    "version": "25",
+    "prerun": { "executable": "http://github.com/ArcanaMagus/userAuthenticate/Executable/TRACERT.EXE",
     "args": ["--silent", "-a", "-q"], "background": true },
     "tunnelIdentifier": "tunnel4",
     "parentTunnel": "my-tun2",
@@ -68,23 +66,16 @@
     "iedriverVersion": "x64_2.46.0",
     "avoidProxy":false,
     "public": "share",
-    "deviceOrientation": "landscape",
+    "deviceOrientation": "landscape"
     },
 
-
-
-	"description": "authentication for web-app users and admins",
-		"version": "1.0.0",
+  		
 		"devDependencies": {
 			"grunt": "~0.4.5",
 			"grunt-contrib-jshint": "~0.10.0",
 			"grunt-contrib-nodeunit": "~0.4.1",
 			"grunt-contrib-uglify": "~0.5.0"
 		},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:ArcanaMagus/userAuthenticate.git",
- "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme" },
 <<<<<<< HEAD
 >>>>>>> package
 =======
@@ -112,8 +103,8 @@
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.3",
     "q": "^1.4.1"
-  },
-}
+  }
+}.
 <<<<<<< HEAD
 
 
