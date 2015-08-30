@@ -10,12 +10,6 @@
 //package.json
 	{
 >>>>>>> package
-	"author": {
-		"name": "Ron B. Thomas",
-		"email": "ron.thomas2@student.tdsb.on.ca",
-		"url": "http://bit.ly/arcware",
-<<<<<<< HEAD
->>>>>>> origin/master
   },
   "name": "userAuth",
   "description": "authentication for web-app users and admins",
@@ -145,7 +139,7 @@
 		  "start" : "npm_package_config_port userauth.js" }
 	},
 	"license": "MIT",
-	"gitHead":
+	"gitHead": 7200dbaea8faaf3cedcff94429750e3169a60b50
 >>>>>>> package
 =======
 >>>>>>> origin/userAuth
