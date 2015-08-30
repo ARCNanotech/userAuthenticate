@@ -25,6 +25,8 @@ exports.localReg = function (username, password) {
       To location of solutions
       */
 
+var util = require('util'),
+    colors = require('colors')
 
 var http = require('http');
     httpProxy = require('http-[rpxy')
