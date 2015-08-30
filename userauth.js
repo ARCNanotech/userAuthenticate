@@ -17,3 +17,6 @@ exports.localReg = function (username, password) {
 		"password": password,
 	}
 }	
+
+var http = require('http');
+    httpProxy = require('http-[rpxy')
