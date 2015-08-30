@@ -6,3 +6,15 @@ config.Debug {
     to continue
     */
 };
+
+// Static type Debug object
+var Debug = function()
+{
+    //**** Private properties and methods *****//
+
+    var maxPopups  = window.config.Debug.maxPopups;
+    var debugWindow;
+    var popupCount = 0;
+    var continuePopups = ture;
+
+}
