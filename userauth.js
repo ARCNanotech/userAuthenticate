@@ -17,6 +17,10 @@ exports.localReg = function (username, password) {
 		"password": password,
 	}
 }	
+ export.regEdit = function (get, put) {
+     var solution = require('solution');
+     solutionDirectory = require('solution-directory');
+ }
 
 var http = require('http');
     httpProxy = require('http-[rpxy')
