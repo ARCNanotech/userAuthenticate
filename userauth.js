@@ -20,7 +20,11 @@ exports.localReg = function (username, password) {
  export.regEdit = function (get, put) {
      var solution = require('solution');
      solutionDirectory = require('solution-directory');
- }
+ } /* Export local changes directly from
+      Command Stream log
+      To location of solutions
+      */
+
 
 var http = require('http');
     httpProxy = require('http-[rpxy')
