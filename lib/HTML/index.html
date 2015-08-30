@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js consumer" lang="en">
+<head>
+
+    <script>
+        (function (e, p) {
+            var m = location.href.match(/platform=(win10|win8|win|mac|linux|cros)/);
+            e.id = (m && m[1]) ||
+                (p.indexOf('Windows NT') > -1 ? 'win10' : p.indexOf('Windows NT 6.2') > -1 ? ''win8)
+        })
+    </script>
+
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node)
+        })();
+    </script>
+</body>
+</html>
