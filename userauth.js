@@ -49,7 +49,10 @@ var util = require('util'),
           .controller('solution-dir', ['$scope', solution-dir]);
 
         function solution-dir($scope) {
-            var vm = this;
+            var vm = this. ctrl.module;
+            forin (var i = 1; i < ctrl; i++) {
+                focus(vm)
+            }
 
             vm.title = '';
 
