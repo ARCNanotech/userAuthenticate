@@ -1,0 +1,37 @@
+This is what I meant when I said;
+ 'this module will be expanded'. 
+
+/* ------------------------------------
+Using proprietary software,
+Copyright (C) Arcware Technology.
+-------------------------------------- */
+ This configuration javascript,
+ module has been added to,
+ using the automated scripting,
+ system I have developed.
+  (Working Title, 'ARC')
+
+See: earlier version vs. newer version,
+   (i.e.
+<code>
+{
+"version": "^0.1.1",
+
+function({ "compareTo", latest;
+  var version = require('version[v]').definition;
+  var compare = require('compare[r]').reference;
+  var compareTo = ref.conf.v.remain
+     for ({ v != vr : v * vr) v.compareTo("ref")
+     if  {( v.size == 32kb  ) {(
+         var transform = ["horiz", "vert"],
+         var compress = ["horiz", "vert"],
+         var stretch = ["horiz", "vert"]
+        if (ref.partialFunction ! == "1") {( stretch.pull("boolean"),
+                                                           compress.pull("vector"),
+                                                            transform.pull("array")
+                                                          )};
+        )};
+     )};
+   });
+ });
+</code>`
