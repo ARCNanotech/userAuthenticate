@@ -56,9 +56,11 @@ var util = require('util'),
 
             vm.title = '';
 
-            activate();
+            activate('./*test.js');
             MSInputMethodContext 
-            function activate() { }
+            function activate() { 
+               SVGUseElement(get (location)), 
+            }
         }
     })();
                 
