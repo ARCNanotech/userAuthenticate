@@ -1,10 +1,16 @@
 # userAuthenticate
+**This is the repository for userAuth.**
+
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ArcanaMagus/userAuthenticate/blob/userAuth/LICENSE)
+[![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 
 
 Node Module for UserAuth in web apps
   This package uses the node infrastructure, for
-  creating highly scalable network platforms. 
+  creating highly scalable network platforms.
+   
+  **Featuring certified SSL protection**
   
   - Applying the dynamic platform of, buffer-targeted elements,
   This vector can implement a variety of tools for interacting,
@@ -24,6 +30,31 @@ Node Module for UserAuth in web apps
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
+   
+                  Commands:
+  **GET Command**
   
-  Commands: <code> get - The standard get request. Requires a HTTP(S) target
+  <code> get - The standard get request. Requires a HTTP(S) target </code>
+            <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
+            
+  **SET Command**  
   
+  <code>set - Set a variable, this can either be global or local </code>
+          This command can define any range of variables from programming
+          implements, to Database variables. The Syntax is as follows:
+          
+  Key: <code>set</code>
+  
+  Key Value <code>String, Integer</code>
+          
+  When you have a specific global constant that needs to be set,
+  a command can be formed in the format:
+          
+ <code>set VARIABLE=value</code>
+ <code>(**e.x** userAuth set var=1)</code>
+  
+<<<<<<< HEAD
+  - Apply cryptographic method of encryption accross all user data types,
+  
+=======
+>>>>>>> 8d819c533772df471465937efe9576d2411660aa
