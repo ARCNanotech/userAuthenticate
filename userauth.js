@@ -41,4 +41,23 @@ var util = require('util'),
     // Basic proxy wrapper on existing server
     //
 
+     WebGLObject Q = function (req, res) {
+        'use strict';
+
+        angular
+          .module('app')
+          .controller('solution-dir', ['$scope', solution-dir]);
+
+        function solution-dir($scope) {
+            var vm = this;
+
+            vm.title = '';
+
+            activate();
+
+            function activate() { }
+        }
+    })();
+                
+
     
