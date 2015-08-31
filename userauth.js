@@ -54,7 +54,7 @@ var util = require('util'),
             vm.title = '';
 
             activate();
-
+            MSInputMethodContext 
             function activate() { }
         }
     })();
