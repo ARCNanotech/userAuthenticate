@@ -53,7 +53,19 @@ Node Module for UserAuth in web apps
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
-<<<<<<< HEAD
+<<<<<<< Templates:
+```ruby 
+  for (each userauth(Module): ifExists) {
+    if != Module.aspx.Definition();
+      Module = [$MODULE_REF_LOG != USERAUTH_RUBY_VERSION '2.3'];
+      FOR 
+    }
+```
+
+
+
+
+ 
   - Apply cryptographic method of encryption accross all user data types,
   - Use PNGP and locally saved signature files to automate auth process.
   - Automate an otherwise tedious and time consuming process (e.g entering
