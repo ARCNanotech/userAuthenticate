@@ -55,6 +55,9 @@ Node Module for UserAuth in web apps
   
 <<<<<<< HEAD
   - Apply cryptographic method of encryption accross all user data types,
+  - Use PNGP and locally saved signature files to automate auth process.
+  - Automate an otherwise tedious and time consuming process (e.g entering
+   & re-entering your password)
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
