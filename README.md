@@ -56,7 +56,9 @@ String, List, Array
             
   **SET Command**  
   
-  <code>set - Set a variable, this can either be global or local </code>
+  ``` UNIX-bash
+  set - Set a variable, this can either be global or local
+          ````
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
         
