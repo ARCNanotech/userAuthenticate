@@ -40,16 +40,17 @@ your system.
   <code> get - The standard get request. Requires a HTTP(S) target </code>
             <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
             
+  **ls Command**
+  <code>ls - List all files and folders within the current directory</code>.
+  if None is specified.
+            
   **SET Command**  
   
   <code>set - Set a variable, this can either be global or local </code>
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
-          
-  **ls Command**
-  <code>ls - List all files and folders within the current directory</code>.
-  if None is specified.
-          
+        
+
   Key: <code>set</code>
   
   Key Value <code>String, Integer</code>
