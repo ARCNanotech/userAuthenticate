@@ -22,7 +22,7 @@ Node Module for UserAuth in web apps
 
 #Usage
 
-Install this globally and you'll have access to the userAuth command from any part of
+Install this globally and you'll have access to the <code>userAuth</code> command from any part of
 your system.
  
  <code>npm install -g userAuth</code>
@@ -64,8 +64,9 @@ your system.
       FOR 
     }
 ```
-
-
+###Cross-Platform
+Use this to enable Linux functionality for userAuth, add one of the following to your
+<code>~/.bashrc</code> or <code>~/.zshrc</code> file.
 
 
  
