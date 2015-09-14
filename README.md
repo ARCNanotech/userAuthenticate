@@ -40,7 +40,10 @@ your system.
   <code> get - The standard get request. Requires a HTTP(S) target </code>
             <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
             
-Key: <code>get</code>
+Key:
+``` UNIX-bash
+  GET
+```
 
 Key Value:
 ``` bash
