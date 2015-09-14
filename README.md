@@ -42,7 +42,8 @@ your system.
             
 Key: <code>get</code>
 
-Key Value:``` bash
+Key Value:
+``` bash
 String, List, Array
 ```
 
