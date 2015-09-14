@@ -21,6 +21,9 @@ Node Module for UserAuth in web apps
   enough to be accepted. 
 
 #Usage
+
+Install this globally and you'll have access to the userAuth command from any part of
+your system.
  
  <code>npm install -g userAuth</code>
   
