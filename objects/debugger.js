@@ -1,4 +1,4 @@
-﻿// Javascript Source Code
+﻿    // Javascript Source Code
 
 if(!window.config) var  config {};
 config.Debug {
