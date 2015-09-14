@@ -46,7 +46,7 @@ Key:
 ```
 
 Key Value:
-``` bash
+```UNIX-bash
 String, List, Array
 ```
 
@@ -57,15 +57,21 @@ String, List, Array
   **SET Command**  
   
   ``` UNIX-bash
-  set - Set a variable, this can either be global or local
+  SET - Set a variable, this can either be global or local
  ````
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
         
 
-  Key: <code>set</code>
+  Key: 
+  ``` UNIX-bash
+  SET
+  ````
   
-  Key Value <code>String, Integer</code>
+  Key Value 
+  ```UNIX-bash
+  String, Integer
+  ```
           
   When you have a specific global constant that needs to be set,
   a command can be formed in the format:
