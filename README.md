@@ -46,6 +46,9 @@ your system.
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
           
+  **ls Command**
+  <code>ls - List all files and folders within the current directory</code>.
+          
   Key: <code>set</code>
   
   Key Value <code>String, Integer</code>
