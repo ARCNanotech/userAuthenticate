@@ -48,6 +48,7 @@ your system.
           
   **ls Command**
   <code>ls - List all files and folders within the current directory</code>.
+  if None is specified.
           
   Key: <code>set</code>
   
