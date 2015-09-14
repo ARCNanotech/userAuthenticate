@@ -83,6 +83,9 @@ String, List, Array
 Use this to enable Linux functionality for userAuth, add one of the following to your
 <code>~/.bashrc</code> or <code>~/.zshrc</code> file.
 
+#### Mac OS/ iOS Ports
+Development has begun on an iOS oriented port of this application. Release dates of 
+Ma, Unix, windows ports will be synchronous.
 
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
