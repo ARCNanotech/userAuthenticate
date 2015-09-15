@@ -21,6 +21,9 @@ Node Module for UserAuth in web apps
   enough to be accepted. 
 
 #Usage
+
+Install this globally and you'll have access to the <code>userAuth</code> command from any part of
+your system.
  
  <code>npm install -g userAuth</code>
   
@@ -37,15 +40,38 @@ Node Module for UserAuth in web apps
   <code> get - The standard get request. Requires a HTTP(S) target </code>
             <code>(**e.x** userAuth get https://ha.ckme.com)</code> 
             
+Key:
+``` UNIX-bash
+  GET
+```
+
+Key Value:
+```UNIX-bash
+String, List, Array
+```
+
+  **ls Command**
+  <code>ls - List all files and folders within the current directory</code>.
+  if None is specified.
+            
   **SET Command**  
   
-  <code>set - Set a variable, this can either be global or local </code>
+  ``` UNIX-bash
+  SET - Set a variable, this can either be global or local
+ ````
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
-          
-  Key: <code>set</code>
+        
+
+  Key: 
+  ``` UNIX-bash
+  SET
+  ````
   
-  Key Value <code>String, Integer</code>
+  Key Value 
+  ```UNIX-bash
+  String, Integer
+  ```
           
   When you have a specific global constant that needs to be set,
   a command can be formed in the format:
@@ -53,8 +79,30 @@ Node Module for UserAuth in web apps
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
-<<<<<<< HEAD
-  - Apply cryptographic method of encryption accross all user data types,
+<<<<<<< Templates:
+```ruby 
+  for (each userauth(Module): ifExists) {
+    if != Module.aspx.Definition();
+      Module = [$MODULE_REF_LOG != USERAUTH_RUBY_VERSION '2.3'];
+      FOR 
+    }
+```
+###Cross-Platform
+Use this to enable Linux functionality for userAuth, add one of the following to your
+<code>~/.bashrc</code> or <code>~/.zshrc</code> file.
+
+#### Mac OS/ iOS Ports
+Development has begun on an iOS oriented port of this application. Release dates of 
+Ma, Unix, windows ports will be synchronous.
+
+      **Notable Features in Mac Version**
+- Each individual function of Mac OS differs from each individual of Windows and Linux      
+
+ 
+  (~~Apply cryptographic method of encryption accross all user data types~~)
+  - Use PGP and locally saved signature files to automate auth process.
+  - Automate an otherwise tedious and time consuming process (e.g entering
+   & re-entering your password)
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
