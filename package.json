@@ -17,10 +17,6 @@
       "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
       "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme"
     },
-    <<<<<<< HEAD
-    <<<<<<< HEAD
-    ======= =======
-    >>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
     "passed": true,
     "public": "public",
     "tags": [
