@@ -107,7 +107,7 @@
   "bcryptjs": "^2.2.0",
   "bcrypt-nodejs": "^0.0.3",
   "http-proxy": "~1.0"
-  "express": "^4.13.1",
+  "express" "^4.13.1",
   "express-handlebars": "^2.0.1",
   "morgan": "^1.6.1",
   "twitter-api": "^1.0.4",
