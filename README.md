@@ -6,7 +6,7 @@
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
-[![devDependency Status](https://david-dm.org/ArcanaMagus/userauth/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
+[![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 
 
 Node Module for UserAuth in web apps
