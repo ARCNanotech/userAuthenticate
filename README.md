@@ -1,4 +1,4 @@
-# userAuthenticate
+# userAuthenticate Automaton Module
 **This is the repository for userAuth.**
 
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
@@ -6,13 +6,14 @@
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
+|Userauthenticate Automaton MOdule|
+===================================
 
 
 Node Module for UserAuth in web apps
-  This package uses the node infrastructure, for
-  creating highly scalable network platforms.
-   
-  **Featuring certified SSL protection**
+  This package uses the [node](https://nodejs.org/en/) technology and 
+   concurrent stream processing architecture, originally developed by 
+  [Arcware](https://arcware.com).  By 
   
   - Applying the dynamic platform of, buffer-targeted elements,
   This vector can implement a variety of tools for interacting,
