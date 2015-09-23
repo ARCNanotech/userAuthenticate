@@ -90,7 +90,13 @@ String, List, Array
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
-<<<<<<< Templates:
+<<< Templates:
+
+Examples
+========
+  Here is a simple example in ruby module that invokes
+  the target userAuth
+  
 ```ruby 
   for (each userauth(Module): ifExists) {
     if != Module.aspx.Definition();
