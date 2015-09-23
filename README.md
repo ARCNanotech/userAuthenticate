@@ -11,8 +11,13 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
+<<<<<<< HEAD
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
+=======
+|Userauthenticate Automaton MOdule|
+===================================
+>>>>>>> Update README.md
 
 |Userauthenticate Automaton Module|
 ===================================
@@ -54,7 +59,7 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
-
+  
 Config
 ======
  Use the userauthenticate library and the call functions to or from it in your
