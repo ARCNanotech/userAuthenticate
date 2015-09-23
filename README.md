@@ -12,10 +12,15 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 =======
 |Userauthenticate Automaton MOdule|
+=======
+
+|Userauthenticate Automaton Module|
+>>>>>>> Update README.md
 ===================================
 >>>>>>> Update README.md
 
