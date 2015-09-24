@@ -34,6 +34,14 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
+
+Config
+======
+
+````javascript
+  var userauth = require('userauth');
+    var authlib = require('userauth.lib');
+```
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
