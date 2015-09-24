@@ -1,6 +1,5 @@
-<<<<<<< HEAD {
-  <<<<<<< HEAD
-  "author": {
+{
+"author": {
     "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
@@ -17,10 +16,6 @@
       "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
       "homepage": "https://github.com/ArcanaMagus/userAuthenticate#eadme"
     },
-    <<<<<<< HEAD
-    <<<<<<< HEAD
-    ======= =======
-    >>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
     "passed": true,
     "public": "public",
     "tags": [
@@ -29,10 +24,10 @@
       "REST",
       "API"
     ],
-    "build": 53,
+    "build": 255,
     "customData": {
       "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
-      "execution_number": 53,
+      "execution_number": 8ee8907,
       "release": "1.1",
       "server": "test.saucelabs.com",
       "staging": true
@@ -65,6 +60,7 @@
       "deviceOrientation": "landscape"
     },
 
+    "showMissingDevOptionalSubPackages":  {}
 
     "devDependencies": {
       "grunt": "~0.4.5",
@@ -81,7 +77,10 @@
     "url": "http://bit.ly/arcware",
     "license": "MIT",
     "engines": {
-      "node": "*"
+      "node": "*",
+      "grunt": "*",
+      "mocha": "*",
+      "wd-js": "*",
     },
     "bugs": {
       "url": "https://github.com/ArcanaMagus/userAuthenticate"
@@ -111,7 +110,7 @@
   "bcryptjs": "^2.2.0",
   "bcrypt-nodejs": "^0.0.3",
   "http-proxy": "~1.0"
-  "express": "^4.13.1",
+  "express" "^4.13.1",
   "express-handlebars": "^2.0.1",
   "morgan": "^1.6.1",
   "twitter-api": "^1.0.4",
