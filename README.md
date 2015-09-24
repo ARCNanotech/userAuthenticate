@@ -38,12 +38,21 @@ your system.
 Config
 ======
  Use the userauthenticate library and the call functions to or from it in your
- projects using this ior similar implementation.
+ projects using this or similar implementation.
 
 ````javascript
   var userauth = require('userauth');
     var authlib = require('userauth.lib');
 ```
+   
+   **Exceptions**
+   Compare or contrast the the type or rank of functions subgrouped from the
+   source library. You can pull the components of each subclass of this source
+   using the <code>GET</code> operator 
+   
+```javascript
+```
+
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
