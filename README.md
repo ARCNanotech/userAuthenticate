@@ -120,7 +120,8 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
-
+ - Entirely new source code anf cunctionality will be built into iOS future ports.
+ - To include modular capabilities in Cross-Platform solutions of this source
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
