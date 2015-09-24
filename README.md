@@ -37,6 +37,8 @@ your system.
 
 Config
 ======
+ Use the userauthenticate library and the call functions to or from it in your
+ projects using this ior similar implementation.
 
 ````javascript
   var userauth = require('userauth');
