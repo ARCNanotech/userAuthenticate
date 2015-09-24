@@ -6,12 +6,7 @@ var bcrypt = require('bcrypytjs'),
 var bcrypt-node = require('bcrypt-nodejs'),
 	 P = require('p'),
 	 functions = require("./functions.js") // functions file executes all scripts and commands
-api = require('twitter-api')(functions.api); // functions.api are the components 
-
-var express = require('express'),
-        q = require('q'),
-        REST-API = require('./REST-API') // REST-API file contains the meta-data for a restful-API
-        passport = require('passport-google')(sys-cmd.app) // The sys-cmd.app subclassed application 
+	 api = require('twitter-api')(functions.api); // functions.api are the components 
 	 
 // used in local-signup strategy
 exports.localReg = function (username, password) {
@@ -61,9 +56,11 @@ var util = require('util'),
 
             vm.title = '';
 
-            activate();
+            activate('./*test.js');
             MSInputMethodContext 
-            function activate() { }
+            function activate() { 
+               SVGUseElement(get (location)), 
+            }
         }
     })();
                 
