@@ -65,7 +65,11 @@ Config
   +  ';' + i )
 ```
 
+To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
+projects with this module.
   
+      nodejs userAuth/userAuth.cpl
+      
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
    
