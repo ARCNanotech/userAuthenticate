@@ -34,6 +34,33 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
+
+Config
+======
+ Use the userauthenticate library and the call functions to or from it in your
+ projects using this or similar implementation.
+
+````javascript
+  var userauth = require('userauth');
+    var authlib = require('userauth.lib');
+```
+   
+   **Exceptions**
+   Compare or contrast the the type or rank of functions subgrouped from the
+   source library. You can pull the components of each subclass of this source
+   using the <code>GET</code> operator 
+   
+```javascript
+...
+  int q = Object.create ()
+  for(int i = 100; i < q; i++)
+    insertElementat[[ exception (e) ]];
+    for i + q = Object.Stream(create(Emlementbyid b'bytes':*
+  return (q + '\' or ';' or '\\' \
+  + 'The stream reports the bytes of stream created:' \
+  +  ';' + i )
+```
+
   
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
@@ -101,7 +128,8 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
-
+ - Entirely new source code anf cunctionality will be built into iOS future ports.
+ - To include modular capabilities in Cross-Platform solutions of this source
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
