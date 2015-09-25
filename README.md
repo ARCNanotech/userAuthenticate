@@ -1,6 +1,10 @@
 # userAuthenticate
 **This is the repository for userAuth.**
 
+The applications userAuthenticate and the truncated userAuth, including all subclassed 
+Applications and side-chained groups of modules are released under the MIT Software [license](http://opensource.org/about)
+
+
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ArcanaMagus/userAuthenticate/blob/userAuth/LICENSE)
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
