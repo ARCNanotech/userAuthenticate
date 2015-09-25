@@ -51,6 +51,14 @@ Config
    using the <code>GET</code> operator 
    
 ```javascript
+...
+  int q = Object.create ()
+  for(int i = 100; i < q; i++)
+    insertElementat[[ exception (e) ]];
+    for i + q = Object.Stream(create(Emlementbyid b'bytes':*
+  return (q + '\' or ';' or '\\' \
+  + 'The stream reports the bytes of stream created:' \
+  +  ';' + i )
 ```
 
   
