@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+"author": {
+=======
   "author": {
+>>>>>>>  Update network configuration
     "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
@@ -28,6 +32,9 @@
       "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
       "execution_number": 8ee8907,
       "release": "1.2",
+=======
+      "release": "1.2",
+>>>>>>>  Update network configuration
       "server": "test.saucelabs.com",
       "staging": true
     },
@@ -60,6 +67,9 @@
     },
 
     "showMissingDevOptionalSubPackages": { }
+=======
+    "showMissingDevOptionalSubPackages": { }
+>>>>>>>  Update network configuration
 
     "devDependencies": {
       "grunt": "~0.4.5",

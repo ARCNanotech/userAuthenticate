@@ -13,6 +13,7 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 =======
@@ -23,6 +24,11 @@ are released under the MIT Software [license](http://opensource.org/about)
 >>>>>>> Update README.md
 ===================================
 >>>>>>> Update README.md
+=======
+
+|Userauthenticate Automaton Module|
+===================================
+>>>>>>>  Update network configuration
 
 |Userauthenticate Automaton Module|
 ===================================
@@ -176,8 +182,12 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
+<<<<<<< HEAD
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
+=======
+
+>>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.

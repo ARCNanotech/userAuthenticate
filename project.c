@@ -7,6 +7,17 @@
 include stdio.h
 using stdio.h
 
+protected override OnClick ()
+{
+	//The click handler of your app
+}
+
+protected override OnStart ()
+{
+	// The startup handler of your app
+}
+
+
 
 
 
