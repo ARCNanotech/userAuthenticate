@@ -11,24 +11,11 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
-=======
-|Userauthenticate Automaton MOdule|
-=======
-
-|Userauthenticate Automaton Module|
->>>>>>> Update README.md
-===================================
->>>>>>> Update README.md
-=======
 
 |Userauthenticate Automaton Module|
 ===================================
->>>>>>>  Update network configuration
 
 |Userauthenticate Automaton Module|
 ===================================
@@ -61,7 +48,7 @@ Links
 *  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 *  
 #Usage
-
+ 
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
 your system.
  
@@ -139,7 +126,7 @@ String, List, Array
  ````
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
-        
+          
 
   Key: 
   ``` UNIX-bash
