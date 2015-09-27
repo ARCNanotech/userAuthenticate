@@ -38,9 +38,9 @@ namespace userAuth.cpl
 			// Handle when your app resumes
 		}
 
-		private GestureState void OnClick ()
+		protected void OnClick ()
 		{
-			
+			// Handle click send to your app
 		}
 	}
 }
