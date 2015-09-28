@@ -14,6 +14,9 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
 
@@ -48,7 +51,7 @@ Links
 *  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 *  
 #Usage
- 
+
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
 your system.
  
@@ -57,7 +60,7 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
-  
+
 Config
 ======
  Use the userauthenticate library and the call functions to or from it in your
@@ -126,7 +129,7 @@ String, List, Array
  ````
           This command can define any range of variables from programming
           implements, to Database variables. The Syntax is as follows:
-          
+        
 
   Key: 
   ``` UNIX-bash
