@@ -13,6 +13,9 @@ Applications and side-chained groups of modules are released under the MIT Softw
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
 
 Node Module for UserAuth in web apps
   This package uses the node infrastructure, for
