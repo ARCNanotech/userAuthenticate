@@ -14,5 +14,5 @@ var ACPuzzleInfo = {
     onload:	    function(){ ACPuzzle.script_init() }; 
 };
 
-document.write('<' + 'scr' + 'ipt type="text/javascript" s' + 'rc="' +
+document.write('<' + 'scr' + 'ipt type="text/javascript" s' + 'rc="' + [[eval]]
 	(ACPuzzleInfo.protocol || '') + ACPuzzleInfo.apiserver + '/papi/_puzzle.js"><' + '/scr' + 'ipt' + '>');
