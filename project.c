@@ -7,16 +7,37 @@
 include stdio.h
 using stdio.h
 
+public class Dbg : Debug
+{
+	public Dbg ()
+		{
+			// The main debugger of your application
+			CallStack = new ProcessReference {
+				Process = new CodeMap {
+					
+				}
+			}
+		}
+};
 protected override OnClick ()
 {
-	//The click handler of your app
+	//Handle clicks in your app
 }
 
 protected override OnStart ()
 {
-	// The startup handler of your app
+	// Handle when yor app starts 
 }
 
+protected override OnMouseHover () 
+{
+	// Handle when the Cursor is idle
+}
+
+protected override OnMouserLeave ()
+{
+	// Handle when the cursor moves
+}
 
 
 
