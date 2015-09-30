@@ -2,7 +2,8 @@
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules are released under the MIT Software [license](http://opensource.org/about)
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib
+are released under the MIT Software [license](http://opensource.org/about)
 
 
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
@@ -13,7 +14,6 @@ Applications and side-chained groups of modules are released under the MIT Softw
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
-<<<<<<< HEAD
 |Userauthenticate Automaton Module|
 ===================================
 
@@ -152,6 +152,7 @@ Use this to enable Linux functionality for userAuth, add one of the following to
 <code>~/.bashrc</code> or <code>~/.zshrc</code> file.
 
 #### Mac OS/ iOS Ports
+======================
 Development has begun on an iOS oriented port of this application. Release dates of 
 Ma, Unix, windows ports will be synchronous.
 
@@ -164,6 +165,11 @@ Ma, Unix, windows ports will be synchronous.
   - Use PGP and locally saved signature files to automate auth process.
   - Automate an otherwise tedious and time consuming process (e.g entering
    & re-entering your password)
+  - A cross-platform implement utilising code shared between platforms.
+  
+**C#**
+The cross-platform solution is coded primarily in C#. With a backend of
+Ruby Platform that integrates a highly sophisticated network infrastructure. 
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
