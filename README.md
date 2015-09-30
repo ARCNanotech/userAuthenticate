@@ -42,6 +42,7 @@ Links
 =====
 
 *  [Source](https://github.com/ArcanaMagus/userAuthenticate)
+*  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 *  
 #Usage
 
@@ -88,6 +89,9 @@ projects with this module.
 Suppose you wish to list the most recent connect logs, use the <code>log</code> command.
 
       nodejs userAuth --log recent
+      
+However you can omit the <code>nodejs</code> flag to run the userAuth module independently
+of the Bower/NPM platform.
       
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
