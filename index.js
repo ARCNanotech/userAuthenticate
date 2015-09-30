@@ -1,5 +1,5 @@
 // JavaScript source code
-exports.downlod = require('./lib/userauth.js')
+exports.download = require('./lib/userauth.js')
 modules.exports = ('./REST-API.js')'
-exports.downlod = require('./config.js');
-exports.download = require('./lib/browser.js');
+exports.download = require('./config.js')
+module.exports = ('./lib/browser.js')
