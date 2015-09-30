@@ -82,9 +82,7 @@
       "url": "https://github.com/ArcanaMagus/userAuthenticate"
     },
   },
-
-  HEAD =======
-}, "name": "userauth", "config": {
+ }, "name": "userauth", "config": {
   "port": "8080"
 } }, "description": "authentication for web-apps", "version": "0.1.0", "repository": {
   "type": "git",

@@ -20,8 +20,6 @@ surrounding cde userAuth.
 |Userauthenticate Automaton Module|
 ===================================
 
-|Userauthenticate Automaton Module|
-===================================
 
 =======
 **Note**
