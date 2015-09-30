@@ -1,9 +1,5 @@
-# userAuthenticate Automaton Module
+# userAuthenticate
 **This is the repository for userAuth.**
-
-The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules are released under the MIT Software [license](http://opensource.org/about)
-
 
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ArcanaMagus/userAuthenticate/blob/userAuth/LICENSE)
@@ -13,22 +9,12 @@ Applications and side-chained groups of modules are released under the MIT Softw
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
-<<<<<<< HEAD
-|Userauthenticate Automaton Module|
-===================================
-
-=======
-**Note**
-Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
->>>>>>> f1422b3fd544b171a9296c50266068f8bf4c31fb
 
 Node Module for UserAuth in web apps
-  This package uses the [node](https://nodejs.org/en/) technology and 
-   concurrent stream processing architecture, originally developed by 
-  [Arcware](https://arcware.com) In implementing the formal programming
-  standard for network switches , make it possible for [Combinatorial optimization](https://en.wikipedia.org/wiki/Combinatorics#Combinatorial_Optimization),
-  and other devices that require fast translation of big-data sets.
+  This package uses the node infrastructure, for
+  creating highly scalable network platforms.
+   
+  **Featuring certified SSL protection**
   
   - Applying the dynamic platform of, buffer-targeted elements,
   This vector can implement a variety of tools for interacting,
@@ -38,11 +24,6 @@ Node Module for UserAuth in web apps
   sufficient for a reader to create a mental image. Yet sophisticated,
   enough to be accepted. 
 
-Links
-=====
-
-*  [Source](https://github.com/ArcanaMagus/userAuthenticate)
-*  
 #Usage
 
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
@@ -53,38 +34,7 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
-
-Config
-======
- Use the userauthenticate library and the call functions to or from it in your
- projects using this or similar implementation.
-
-````javascript
-  var userauth = require('userauth');
-    var authlib = require('userauth.lib');
-```
-   
-   **Exceptions**
-   Compare or contrast the the type or rank of functions subgrouped from the
-   source library. You can pull the components of each subclass of this source
-   using the <code>GET</code> operator 
-   
-```javascript
-...
-  int q = Object.create ()
-  for(int i = 100; i < q; i++)
-    insertElementat[[ exception (e) ]];
-    for i + q = Object.Stream(create(Emlementbyid b'bytes':*
-  return (q + '\' or ';' or '\\' \
-  + 'The stream reports the bytes of stream created:' \
-  +  ';' + i )
-```
-
-To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
-projects with this module.
   
-      nodejs userAuth/userAuth.cpl
-      
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
    
@@ -133,13 +83,7 @@ String, List, Array
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
-<<< Templates:
-
-Examples
-========
-  Here is a simple example in ruby module that invokes
-  the target userAuth
-  
+<<<<<<< Templates:
 ```ruby 
   for (each userauth(Module): ifExists) {
     if != Module.aspx.Definition();
@@ -157,8 +101,7 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
- - Entirely new source code anf cunctionality will be built into iOS future ports.
- - To include modular capabilities in Cross-Platform solutions of this source
+
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
