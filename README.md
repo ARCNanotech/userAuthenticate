@@ -85,6 +85,10 @@ projects with this module.
   
       nodejs userAuth/userAuth.cpl
       
+Suppose you wish to list the most recent connect logs, use the <code>log</code> command.
+
+      nodejs userAuth --log recent
+      
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
    
