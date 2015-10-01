@@ -1,4 +1,3 @@
-/*
  * project.c
  *
  *  Created on: Sep 27, 2015
@@ -7,6 +6,7 @@
 include stdio.h
 using stdio.h
 
+		from stdio.h import mathematics
 
 
 

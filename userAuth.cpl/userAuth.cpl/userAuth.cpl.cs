@@ -42,6 +42,12 @@ namespace userAuth.cpl
 		{
 			// Handle click send to your app
 		}
+
+		public class ClickRef : IViewController
+		{
+			public ClickRef ()
+			{
+				IVisualElementController = Element.ContentPage
 	}
 }
 
