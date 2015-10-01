@@ -1,5 +1,5 @@
 // JavaScript source code
-var modules = {'prototype': 1, 'type': 'ParseFileOperator'
+var modules = {'prototype': 1, 'type': 'ParseFileOperator'};
 
 exports.download = require('./lib/userauth.js');
 modules.exports = ('./REST-API.js');
