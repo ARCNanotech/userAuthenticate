@@ -47,7 +47,8 @@ Links
 
 *  [Source](https://github.com/ArcanaMagus/userAuthenticate)
 *  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
-*  
+* 
+
 #Usage
 
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
