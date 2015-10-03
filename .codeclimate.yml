@@ -4,6 +4,8 @@ languages:
   JavaScript: true
   PHP: true
   Python: true
+  C: true
+  C++: true
 # exclude_paths:
 # - "foo/bar.rb"
   exclude_paths:
