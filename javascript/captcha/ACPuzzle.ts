@@ -9,10 +9,9 @@ var chalapi: any;
 var mediaserver: string;
 var magic: string;
 var chalapi: string;
->>>>>>> Mod files for upcoming patch
-var chalstamp: any;
-var lang: number;
-var size: any;
-var theme: any;
-var type: any;
+var chalstamp: number;
+var lang: string;
+var size: string;
+var theme: string;
+var type: string;
 var onload:(ev: Event) => any;
