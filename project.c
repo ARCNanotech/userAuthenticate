@@ -14,7 +14,11 @@ public class Dbg : Debug
 			// The main debugger of your application
 			CallStack = new ProcessReference {
 				Process = new CodeMap {
-					
+					Event_Parameter = new Event_Parameter.root,
+					Property = {
+							new IsInstance(Object.referenceCall.toString);
+							Options = "null"
+					};
 				}
 			}
 		}
