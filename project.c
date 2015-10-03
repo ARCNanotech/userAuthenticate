@@ -43,6 +43,11 @@ protected override OnMouserLeave ()
 	// Handle when the cursor moves
 }
 
+protected override OnLoad
+{
+	//Handle loadup in your app
+}
+
 
 
 
