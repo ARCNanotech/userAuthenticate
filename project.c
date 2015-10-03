@@ -6,7 +6,10 @@
  */
 include stdio.h
 using stdio.h
+namespace project
+{
 
+}
 
 
 
