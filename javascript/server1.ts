@@ -1,3 +1,3 @@
 var httpProxy: any;
 var component: any;
-var 
+var APIServer: any;
