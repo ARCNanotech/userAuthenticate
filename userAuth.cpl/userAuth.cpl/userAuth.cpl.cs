@@ -47,7 +47,12 @@ namespace userAuth.cpl
 		{
 			public ClickRef ()
 			{
-				IVisualElementController = Element.ContentPage
+				IVisualElementController = Element.ContentPage()
+				{
+					Attribute.ReferenceEquals}:(bool){
+					object OnClick();
+					object OnRelease();
+					}
 	}
 }
 
