@@ -1,12 +1,15 @@
 {
 "author": {
-    "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
+<<<<<<< HEAD
     //package.json
+=======
+    },
+>>>>>>> ac9a210b94220ec34e63f0cc8ba9cb51994ce68f
     "name": "userAuth",
     "description": "authentication for web-app users and admins",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "repository": {
       "type": "git",
       "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
@@ -20,11 +23,11 @@
       "REST",
       "API"
     ],
-    "build": 255,
+    "build": 408,
     "customData": {
       "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
       "execution_number": 8ee8907,
-      "release": "1.1",
+      "release": "1.2",
       "server": "test.saucelabs.com",
       "staging": true
     },
@@ -56,7 +59,7 @@
       "deviceOrientation": "landscape"
     },
 
-    "showMissingDevOptionalSubPackages":  {}
+    "showMissingDevOptionalSubPackages": { }
 
     "devDependencies": {
       "grunt": "~0.4.5",
@@ -64,6 +67,10 @@
       "grunt-contrib-nodeunit": "~0.4.1",
       "grunt-contrib-uglify": "~0.5.0"
     },
+<<<<<<< HEAD
+=======
+    "main": "userAuth.js",
+>>>>>>> ac9a210b94220ec34e63f0cc8ba9cb51994ce68f
     "url": "http://bit.ly/arcware",
     "license": "MIT",
     "engines": {
@@ -75,28 +82,13 @@
     "bugs": {
       "url": "https://github.com/ArcanaMagus/userAuthenticate"
     },
-    "dependencies": {
-      "bcrypt-nodejs": "^0.0.3",
-      "express": "^4.13.2",
-      "express3-handlebars": "^0.5.2",
-      "orchestrate": "^0.4.6",
-      "passport": "^0.2.2",
-      "passport-facebook": "^2.0.0",
-      "passport-google": "^0.3.0",
-      "passport-local": "^1.0.0",
-      "passport-twitter": "^1.0.3",
-      "passport-youtube": "^0.0.6",
-      "q": "^1.4.1"
-    }
-  }
-  . <<<<<<<
-  HEAD =======
+  },
 }, "name": "userauth", "config": {
   "port": "8080"
 } }, "description": "authentication for web-apps", "version": "0.1.0", "repository": {
   "type": "git",
   "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
-}, "main": "userauth.js", "devDependencies": {
+}, "main": "userauth.js", "Dependencies": {
   "bcryptjs": "^2.2.0",
   "bcrypt-nodejs": "^0.0.3",
   "http-proxy": "~1.0"

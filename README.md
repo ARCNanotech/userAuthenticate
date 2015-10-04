@@ -2,7 +2,7 @@
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib . Not limited to subgroups featuring the .app, .lib or .cpp suffix
 are released under the MIT Software [license](http://opensource.org/about)
 
 
@@ -14,8 +14,12 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
+
 
 =======
 **Note**
@@ -43,7 +47,8 @@ Links
 
 *  [Source](https://github.com/ArcanaMagus/userAuthenticate)
 *  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
-*  
+* 
+
 #Usage
 
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
@@ -166,8 +171,12 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
+<<<<<<< HEAD
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
+=======
+
+>>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
