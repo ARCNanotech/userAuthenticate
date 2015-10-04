@@ -3,11 +3,7 @@
     "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
-    ======= =======
     //package.json
-    {
-      >>>>>>> package
-    },
     "name": "userAuth",
     "description": "authentication for web-app users and admins",
     "version": "0.0.1",
@@ -68,12 +64,6 @@
       "grunt-contrib-nodeunit": "~0.4.1",
       "grunt-contrib-uglify": "~0.5.0"
     },
-    <<<<<<< HEAD
-    >>>>>>> package
-    ======= =======
-    >>>>>>> JSON
-    >>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
-    "main": "userAuth.js",
     "url": "http://bit.ly/arcware",
     "license": "MIT",
     "engines": {
