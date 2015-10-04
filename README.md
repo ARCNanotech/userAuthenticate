@@ -2,7 +2,7 @@
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib . Not limited to subgroups featuring the .app, .lib or .cpp suffix
 are released under the MIT Software [license](http://opensource.org/about)
 
 
