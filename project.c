@@ -1,4 +1,3 @@
-/*
  * project.c
  *
  *  Created on: Sep 27, 2015
@@ -50,6 +49,7 @@ protected override OnLoad
 	//Handle loadup in your app
 }
 
+		from stdio.h import mathematics
 
 
 
