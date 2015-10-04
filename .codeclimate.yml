@@ -10,3 +10,4 @@ languages:
 # - "foo/bar.rb"
   exclude_paths:
   - "../../application.rb"
+  git pull
