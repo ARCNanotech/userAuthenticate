@@ -1,15 +1,12 @@
 {
-  "author": {
+"author": {
     "name": "Ron B. Thomas",
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
-    //package.json
-    {
-      >>>>>>> package
     },
     "name": "userAuth",
     "description": "authentication for web-app users and admins",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "repository": {
       "type": "git",
       "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
@@ -23,7 +20,7 @@
       "REST",
       "API"
     ],
-    "build": 255,
+    "build": 408,
     "customData": {
       "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
       "execution_number": 8ee8907,
@@ -85,9 +82,7 @@
       "url": "https://github.com/ArcanaMagus/userAuthenticate"
     },
   },
-
-  HEAD =======
-}, "name": "userauth", "config": {
+ }, "name": "userauth", "config": {
   "port": "8080"
 } }, "description": "authentication for web-apps", "version": "0.1.0", "repository": {
   "type": "git",
