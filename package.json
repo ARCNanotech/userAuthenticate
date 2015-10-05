@@ -67,8 +67,6 @@
       "grunt-contrib-nodeunit": "~0.4.1",
       "grunt-contrib-uglify": "~0.5.0"
     },
-<<<<<<< HEAD
-=======
     "main": "userAuth.js",
 >>>>>>> ac9a210b94220ec34e63f0cc8ba9cb51994ce68f
     "url": "http://bit.ly/arcware",
