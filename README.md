@@ -1,6 +1,11 @@
 # userAuthenticate Automaton Module
 **This is the repository for userAuth.**
 
+The applications userAuthenticate and the truncated userAuth, including all subclassed 
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib . Not limited to subgroups featuring the .app, .lib or .cpp suffix
+are released under the MIT Software [license](http://opensource.org/about)
+
+
 [![Build Status](https://travis-ci.org/ArcanaMagus/userAuthenticate.svg?branch=userAuth)](https://travis-ci.org/ArcanaMagus/userAuthenticate)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ArcanaMagus/userAuthenticate/blob/userAuth/LICENSE)
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
@@ -9,9 +14,18 @@
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
 
+
+=======
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
+>>>>>>> f1422b3fd544b171a9296c50266068f8bf4c31fb
 
 Node Module for UserAuth in web apps
   This package uses the [node](https://nodejs.org/en/) technology and 
@@ -32,7 +46,9 @@ Links
 =====
 
 *  [Source](https://github.com/ArcanaMagus/userAuthenticate)
-*  
+*  [Build](https://travis-ci.org/ArcanaMagus/userAuthenticate)
+* 
+
 #Usage
 
 Install this globally and you'll have access to the <code>userAuth</code> command from any part of
@@ -70,7 +86,18 @@ Config
   +  ';' + i )
 ```
 
+To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
+projects with this module.
   
+      nodejs userAuth/userAuth.cpl
+      
+Suppose you wish to list the most recent connect logs, use the <code>log</code> command.
+
+      nodejs userAuth --log recent
+      
+However you can omit the <code>nodejs</code> flag to run the userAuth module independently
+of the Bower/NPM platform.
+      
   **Example**
   <code>userAuth [cmd(s)] [opt(s)] </code>
    
@@ -138,18 +165,28 @@ Use this to enable Linux functionality for userAuth, add one of the following to
 <code>~/.bashrc</code> or <code>~/.zshrc</code> file.
 
 #### Mac OS/ iOS Ports
+======================
 Development has begun on an iOS oriented port of this application. Release dates of 
 Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
+<<<<<<< HEAD
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
+=======
+
+>>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
   - Automate an otherwise tedious and time consuming process (e.g entering
    & re-entering your password)
+  - A cross-platform implement utilising code shared between platforms.
+  
+**C#**
+The cross-platform solution is coded primarily in C#. With a backend of
+Ruby Platform that integrates a highly sophisticated network infrastructure. 
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
