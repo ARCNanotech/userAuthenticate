@@ -2,7 +2,7 @@
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib . Not limited to subgroups featuring the .app, .lib or .cpp suffix
 are released under the MIT Software [license](http://opensource.org/about)
 
 
@@ -14,8 +14,12 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding cde userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
+
 
 =======
 **Note**
@@ -167,8 +171,12 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
+<<<<<<< HEAD
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
+=======
+
+>>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
@@ -178,7 +186,14 @@ Ma, Unix, windows ports will be synchronous.
   
 **C#**
 The cross-platform solution is coded primarily in C#. With a backend of
+**Ruby**
 Ruby Platform that integrates a highly sophisticated network infrastructure. 
+
+WHen we developed the backend in Ruby we wanted to ensure that its structure
+could be easily replicated, more so for the insurance of code-reuse. As to 
+develop an individual application framework for each platform e.g(Mac, Windows, iOS)
+would be 3x as expensive. Compared to a single cross platform solution that can 
+simoultaneously target eash operating system.
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
