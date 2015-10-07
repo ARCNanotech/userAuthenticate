@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="userAuth.cpl\userAuth.cpl.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="userAuth.cpl\userAuth.cpl.cs">
+    <Files>
+      <File FileName="userAuth.cpl\userAuth.cpl.cs" Line="48" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
