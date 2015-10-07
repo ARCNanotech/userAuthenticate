@@ -1,15 +1,15 @@
 {
-  "author": {
-    "name": "Ron B. Thomas",
+"author": {
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
+<<<<<<< HEAD
     //package.json
-    {
-      >>>>>>> package
+=======
     },
+>>>>>>> ac9a210b94220ec34e63f0cc8ba9cb51994ce68f
     "name": "userAuth",
     "description": "authentication for web-app users and admins",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "repository": {
       "type": "git",
       "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
@@ -23,7 +23,7 @@
       "REST",
       "API"
     ],
-    "build": 255,
+    "build": 408,
     "customData": {
       "commit": "7cc93c3950c6e3fd7eb3b08aa588c59a77ecaa42",
       "execution_number": 8ee8907,
@@ -67,12 +67,8 @@
       "grunt-contrib-nodeunit": "~0.4.1",
       "grunt-contrib-uglify": "~0.5.0"
     },
-    <<<<<<< HEAD
-    >>>>>>> package
-    ======= =======
-    >>>>>>> JSON
-    >>>>>>> 7200dbaea8faaf3cedcff94429750e3169a60b50
     "main": "userAuth.js",
+>>>>>>> ac9a210b94220ec34e63f0cc8ba9cb51994ce68f
     "url": "http://bit.ly/arcware",
     "license": "MIT",
     "engines": {
@@ -85,8 +81,6 @@
       "url": "https://github.com/ArcanaMagus/userAuthenticate"
     },
   },
-
-  HEAD =======
 }, "name": "userauth", "config": {
   "port": "8080"
 } }, "description": "authentication for web-apps", "version": "0.1.0", "repository": {

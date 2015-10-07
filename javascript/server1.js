@@ -16,5 +16,13 @@ var proxy = httpProxy.createProxyServer(function(req, res) {
                         close.httpProxy;
                     }
                 } while (HRESULT E_FAIL; return / COM.component): 
-            }
+                return (result).switch (parameter).case: any,
+              }
+     var Server = {
+         httpProxy:         'node-httpProxy',
+         component:         'node-component',
+         APIserver:         '//userauth.visualstudio.com',
+         httpsServer:       '//userauth.visualstudio.com',
+         proxy:             function(){ Object.createPeoxyServer(req, res)}
+     }         
 });

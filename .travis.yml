@@ -24,6 +24,9 @@ node_js:
     - node_js "create database node_virtual-lab"
     addons:
   sauce_connect: true
+  code_climate:
+        repo_token: 1d865035b6594f5f8aa70779f65898ed9cf2015864ac7ba93928def8f008b597
+12
 
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
