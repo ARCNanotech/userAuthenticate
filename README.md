@@ -110,11 +110,23 @@ Suppose you wish to list the most recent connect logs, use the <code>log</code> 
 
       nodejs userAuth --log recent
       
+API Keys and Commands
+=====================
+<code>keys</code> will be herein refrred to as global string objects that when called
+upon execute a system command from the internal CLI libraries. The Input of the object
+can consis of usual operators e.g[ ('~') 
+                                      - To infer approximation
+                                   ('~>')
+                                      - To approximate branch value if newer version exists
+                                      upstream
+                                   ('^')
+                                      - 
+      
 However you can omit the <code>nodejs</code> flag to run the userAuth module independently
 of the Bower/NPM platform.
       
   **Example**
-  <code>userAuth [cmd(s)] [opt(s)] </code>
+  <code>userAuth [cmd(s)] [opt(s)] </code>e
    
                   Commands:
   **GET Command**
