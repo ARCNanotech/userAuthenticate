@@ -60,10 +60,11 @@ proteceted void StackFrame(object)
 		} if (Element.Referece = null)
 		{ else ('Global', method: constructor)
 			return id_reference
+					from_init__(declare. (Value: 1.0))
 		}
 }	
 
-		from stdio.h import mathematics
+		from <stdio.h> import mathematics
 
 
 
