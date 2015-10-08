@@ -96,6 +96,9 @@ easily set, simply modify the co-ordinates. As:
 ``` javascript
 string var = Object.value('_int_');
   mode.Constant = system.call_constructor(param: value, static: false, latency: none)
+    if () [[target.value != null and if latency is not > 0.1]] 
+    {
+    }
 ```
 
 To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
