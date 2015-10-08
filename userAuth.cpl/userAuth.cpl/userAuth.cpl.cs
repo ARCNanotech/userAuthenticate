@@ -43,6 +43,10 @@ namespace userAuth.cpl
 			// Handle click send to your app
 		}
 
+		public class StackOrientationMod : Element.Constraint/|\(InputPr)
+		{
+			// Modify the stack orient command
+		}
 		public class ClickRef : IViewController
 		{
 			public ClickRef ()
@@ -53,6 +57,6 @@ namespace userAuth.cpl
 					object OnClick();
 					object OnRelease();
 					}
-	}
+			} Setter. StackOrientation from object(values.ascending, value)
 }
 
