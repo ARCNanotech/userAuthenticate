@@ -49,6 +49,17 @@ protected override OnLoad
 	//Handle loadup in your app
 }
 
+proteceted void StackFrame(object) 
+{
+	var Count = i;
+	var iter = i+=n;
+	var Frame = n;
+		for (element.Frame: event => 0)
+		{
+			Stack.System.Prototype = function(i = $FRAME){ get.Machine.Object('frame'); }
+		}
+}	
+
 		from stdio.h import mathematics
 
 

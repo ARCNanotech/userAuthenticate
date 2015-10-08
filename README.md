@@ -186,7 +186,14 @@ Ma, Unix, windows ports will be synchronous.
   
 **C#**
 The cross-platform solution is coded primarily in C#. With a backend of
+**Ruby**
 Ruby Platform that integrates a highly sophisticated network infrastructure. 
+
+WHen we developed the backend in Ruby we wanted to ensure that its structure
+could be easily replicated, more so for the insurance of code-reuse. As to 
+develop an individual application framework for each platform e.g(Mac, Windows, iOS)
+would be 3x as expensive. Compared to a single cross platform solution that can 
+simoultaneously target eash operating system.
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
