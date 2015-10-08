@@ -5,11 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "userAuth", "userAuth.jsproj", "{DC94C861-5CE7-46E1-95D1-837FB0A3E203}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9AEFCAC-E3EC-4EEC-BCD5-B6C671B23318}"
-	ProjectSection(SolutionItems) = preProject
-		userAuthenticate.project = userAuthenticate.project
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Android = Debug|Android
