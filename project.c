@@ -57,6 +57,9 @@ proteceted void StackFrame(object)
 		for (element.Frame: event => 0)
 		{
 			Stack.System.Prototype = function(i = $FRAME){ get.Machine.Object('frame'); }
+		} if (Element.Referece = null)
+		{ else ('Global', method: constructor)
+			return id_reference
 		}
 }	
 
