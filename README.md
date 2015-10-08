@@ -86,6 +86,18 @@ Config
   +  ';' + i )
 ```
 
+Distributed BreakPoints
+=======================
+***
+In some sample projects you might consider adding a set breakpoints.
+e.g(insert at--> charAt(x, y , z). As the vector insertion can be 
+easily set, simply modify the co-ordinates. As:
+
+``` javascript
+string var = Object.value('_int_');
+  mode.Constant = system.call_constructor(param: value, static: false, latency: none)
+```
+
 To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
 projects with this module.
   
