@@ -1,0 +1,9 @@
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\userAuth.cpl.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\userAuth.cpl.pdb
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\obj\Debug\userAuth.cpl.csprojResolveAssemblyReference.cache
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\obj\Debug\userAuth.cpl.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\userAuth.cpl\obj\Debug\userAuth.cpl.pdb
