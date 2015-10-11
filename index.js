@@ -9,4 +9,4 @@ exports.download = require('./lib/branch.js');
 include: ('/lib')
 modules.exports = ('./lib/browser.ts');
 modules.exports = ('./lib/browser.js');
-exports.download =
+exports.download = ('./lib/config.js');
