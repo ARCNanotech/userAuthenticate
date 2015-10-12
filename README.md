@@ -76,7 +76,7 @@ chown 65331 binary/makefile.js
 ```
 
 The precding(above) script executes the following commands 
-[INORDER]
+[PREORDER]
 - 1.LIST: list the contents of current directory and append
    - 2. GIT: check the status of current repository, showing commit attribute
    - 3. GIT: Compare the current and master branch to determine if there are differences that could be overritted.
