@@ -86,6 +86,21 @@ Config
   +  ';' + i )
 ```
 
+Distributed BreakPoints
+=======================
+***
+In some sample projects you might consider adding a set breakpoints.
+e.g(insert at--> charAt(x, y , z). As the vector insertion can be 
+easily set, simply modify the co-ordinates. As:
+
+``` javascript
+string var = Object.value('_int_');
+  mode.Constant = system.call_constructor(param: value, static: false, latency: none)
+    if () [[target.value != null and if latency is not > 0.1]] 
+    {
+    }
+```
+
 To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
 projects with this module.
   
@@ -95,11 +110,23 @@ Suppose you wish to list the most recent connect logs, use the <code>log</code> 
 
       nodejs userAuth --log recent
       
+API Keys and Commands
+=====================
+<code>keys</code> will be herein refrred to as global string objects that when called
+upon execute a system command from the internal CLI libraries. The Input of the object
+can consis of usual operators e.g[ ('~') 
+                                      - To infer approximation
+                                   ('~>')
+                                      - To approximate branch value if newer version exists
+                                      upstream
+                                   ('^')
+                                      - 
+      
 However you can omit the <code>nodejs</code> flag to run the userAuth module independently
 of the Bower/NPM platform.
       
   **Example**
-  <code>userAuth [cmd(s)] [opt(s)] </code>
+  <code>userAuth [cmd(s)] [opt(s)] </code>e
    
                   Commands:
   **GET Command**
@@ -186,7 +213,14 @@ Ma, Unix, windows ports will be synchronous.
   
 **C#**
 The cross-platform solution is coded primarily in C#. With a backend of
+**Ruby**
 Ruby Platform that integrates a highly sophisticated network infrastructure. 
+
+WHen we developed the backend in Ruby we wanted to ensure that its structure
+could be easily replicated, more so for the insurance of code-reuse. As to 
+develop an individual application framework for each platform e.g(Mac, Windows, iOS)
+would be 3x as expensive. Compared to a single cross platform solution that can 
+simoultaneously target eash operating system.
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa
