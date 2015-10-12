@@ -1,18 +1,24 @@
-<<<<<<< HEAD
 ﻿// Javascript Source Code
-=======
-﻿    // Javascript Source Code
->>>>>>> 26c1f5707fdc29de977b5e4c2bc7f42f6983c50e
-
 if(!window.config) var  config {};
 config.Debug {
     maxPopups: 5            /*use default setting of popup(or)error alerts before prompt
     to continue
     */
 };
-<<<<<<< HEAD
-=======
+    // Static prep for Debug function
+var preDebug = function () {
+    Object.interface(GUID)
+    private :Debug(interface).implements(char(Reference.Object));
+    {
+        // Interface to implement standard character ref.
+    }
+    GUID = {
+        // {73B5D3CF-323A-4DFF-A4C7-2DC8442D624E}
+        static const GUID <<name>> = 
+        { 0x73b5d3cf, 0x323a, 0x4dff, { 0xa4, 0xc7, 0x2d, 0xc8, 0x44, 0x2d, 0x62, 0x4e } };
 
+    }
+}
 // Static type Debug object
 var Debug = function()
 {
@@ -21,9 +27,23 @@ var Debug = function()
     var maxPopups  = window.config.Debug.maxPopups;
     var debugWindow;
     var popupCount = 0;
-    var continuePopups = ture;
+    var continuePopups = true;
 
     //write an HTML message into debug output
+    for (var popup = XMLHttpRequest(req, res)) {
+       if const.reSize(Element.populate_dir);
+        elif (popup != null).reSize(Document) | {popupCount : popupCount.onresize} fi;
+    };
 
 }
->>>>>>> 26c1f5707fdc29de977b5e4c2bc7f42f6983c50e
+var Resolution = {
+    
+    System:             'Newtonsoft',
+    ArgumentException:  'JSON.Linq.JValue',
+    Concatenate:        'JObject',
+
+}
+HTMLFrameElement(onabort, getSelection);
+AsyncframeElement().getComputedStyles {
+    // Declare frame selection action in app
+}
