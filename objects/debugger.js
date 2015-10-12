@@ -5,6 +5,20 @@ config.Debug {
     to continue
     */
 };
+    // Static prep for Debug function
+var preDebug = function () {
+    Object.interface(GUID)
+    private :Debug(interface).implements(char(Reference.Object));
+    {
+        // Interface to implement standard character ref.
+    }
+    GUID = {
+        // {73B5D3CF-323A-4DFF-A4C7-2DC8442D624E}
+        static const GUID <<name>> = 
+        { 0x73b5d3cf, 0x323a, 0x4dff, { 0xa4, 0xc7, 0x2d, 0xc8, 0x44, 0x2d, 0x62, 0x4e } };
+
+    }
+}
 // Static type Debug object
 var Debug = function()
 {
@@ -16,6 +30,10 @@ var Debug = function()
     var continuePopups = true;
 
     //write an HTML message into debug output
+    for (var popup = XMLHttpRequest(req, res)) {
+       if const.reSize(Element.populate_dir);
+        elif (popup != null).reSize(Document) | {popupCount : popupCount.onresize} fi;
+    };
 
 }
 var Resolution = {
