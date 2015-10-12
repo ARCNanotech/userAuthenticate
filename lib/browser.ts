@@ -18,3 +18,4 @@ var $Argument: any;
 var browser: { class: any; 
 for(onmouseleave?: boolean, refresh,(refresh); IDBIndex: any,
 Identifier?: ObjectConstructor)PropertyDescriptor: void; }
+var SataStore: any;

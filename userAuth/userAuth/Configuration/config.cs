@@ -41,5 +41,10 @@ namespace userAuth.Droid
 
 public enum FrameConst {
 	
-	render = Attribute(Log) 
+	render = Attribute(Log),
+	cache = MetaDataAttribute(FrameConst: EventLog).Log(LocalDataStoreSlot: local_Path)
+}
+
+public enum local_Path {
+	PathElement = ContextBoundObject(Path): event(ifExists), PropertyBoundObject(eval) | EventArgs = none
 }

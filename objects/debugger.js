@@ -33,6 +33,12 @@ var Debug = function()
     for (var popup = XMLHttpRequest(req, res)) {
        if const.reSize(Element.populate_dir);
         elif (popup != null).reSize(Document) | {popupCount : popupCount.onresize} fi;
+    while (Resolution == null && popup == 0) {
+        for (Object.enumerate.onresize) {
+            Document.createElement(Enumerator::Enumerated)
+            Enumerated = post:(ev: event) Enumerator: typeof function(Prototype);
+        }
+    }
     };
 
 }
