@@ -86,6 +86,21 @@ Config
   +  ';' + i )
 ```
 
+Distributed BreakPoints
+=======================
+***
+In some sample projects you might consider adding a set breakpoints.
+e.g(insert at--> charAt(x, y , z). As the vector insertion can be 
+easily set, simply modify the co-ordinates. As:
+
+``` javascript
+string var = Object.value('_int_');
+  mode.Constant = system.call_constructor(param: value, static: false, latency: none)
+    if () [[target.value != null and if latency is not > 0.1]] 
+    {
+    }
+```
+
 To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
 projects with this module.
   
@@ -95,11 +110,23 @@ Suppose you wish to list the most recent connect logs, use the <code>log</code> 
 
       nodejs userAuth --log recent
       
+API Keys and Commands
+=====================
+<code>keys</code> will be herein refrred to as global string objects that when called
+upon execute a system command from the internal CLI libraries. The Input of the object
+can consis of usual operators e.g[ ('~') 
+                                      - To infer approximation
+                                   ('~>')
+                                      - To approximate branch value if newer version exists
+                                      upstream
+                                   ('^')
+                                      - 
+      
 However you can omit the <code>nodejs</code> flag to run the userAuth module independently
 of the Bower/NPM platform.
       
   **Example**
-  <code>userAuth [cmd(s)] [opt(s)] </code>
+  <code>userAuth [cmd(s)] [opt(s)] </code>e
    
                   Commands:
   **GET Command**
