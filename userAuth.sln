@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
+# Visual Studio 2012
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "userAuth", "userAuth.jsproj", "{DC94C861-5CE7-46E1-95D1-837FB0A3E203}"
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "userAuth", "userAuth.jsproj", "{DC94C861-5CE7-46E1-95D1-837FB0A3E203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
