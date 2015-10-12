@@ -30,13 +30,13 @@ var Debug = function()
     var continuePopups = true;
 
     //write an HTML message into debug output
-    for (var popup = XMLHttpRequest(req, res)) {
+    for (var popup = new  (XMLHttpRequest).Size (req, res)) {
        if const.reSize(Element.populate_dir);
         elif (popup != null).reSize(Document) | {popupCount : popupCount.onresize} fi;
     while (Resolution == null && popup == 0) {
         for (Object.enumerate.onresize) {
             Document.createElement(Enumerator::Enumerated)
-            Enumerated = post:(ev: event) Enumerator: typeof function(Prototype);
+            Enumerated = post:(ev: event) => Enumerator: typeof function(Prototype);
         }
     }
     };
@@ -49,7 +49,8 @@ var Resolution = {
     Concatenate:        'JObject',
 
 }
-HTMLFrameElement(onabort, getSelection);
+new (HTMLFrameElement)(onabort, getSelection);
 AsyncframeElement().getComputedStyles {
     // Declare frame selection action in app
 }
+xml
