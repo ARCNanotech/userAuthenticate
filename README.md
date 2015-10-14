@@ -76,17 +76,17 @@ chown 65331 binary/makefile.js
 ```
 
 The precding(above) script executes the following commands 
-[INORDER]
-- 1. list the contents of current directory and append
- - 2. GIT: check the status of current repository, showing commit attribute
- - 3. GIT: Compare the current and master branch to determine if there are differences that could be overritted.
-  - 4. Linux/Bash: Build current package [userAuth-v1.0.9] *Note*: Accepts No Arguments
-- 5. CMD: Enter the referenced diredtory [binary]
-    - 6. charAt(14,11): The '^' character is used in Wonds PowerShell to indicate an additional line of input.
-  - 7. Linux/Bash: Run the makefile used to finalize the build\install process. Usually located in "app_root_dir/binary"
-   - 8.ELSE: Standard `else` operator, notable in many programming languages and protocols.
-  - 9.Linux/Bash: Add ownership priveleges to property of referenced file. [/binary/makefile.js]
-    - 10. FINALLY: Run the compiled Makedile; from app_root_dir
+[PREORDER]
+- 1.LIST: list the contents of current directory and append
+   - 2. GIT: check the status of current repository, showing commit attribute
+   - 3. GIT: Compare the current and master branch to determine if there are differences that could be overritted.
+      - 4. Linux/Bash: Build current package [userAuth-v1.0.9] *Note*: Accepts No Arguments
+      - 5. Linux/Bash: Run the makefile used to finalize the build\install process. Usually located in "app__root/binary"
+      - 6.Linux/Bash: Add ownership privileges to property of referenced file. [/binary/makefile.js]
+         - 7. CMD: Enter the referenced diredtory [binary]
+         - 8. charAt(14,11): The '^' character is used in Win PS to indicate an additional line of input.
+            - 9.ELSE: Standard `else` operator, notable in many programming languages and protocols.
+                 - 10. FINALLY: Run the compiled Makedile; from app_root_dir
 
 Config
 ======
