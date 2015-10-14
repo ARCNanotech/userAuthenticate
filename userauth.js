@@ -55,8 +55,11 @@ var util = require('util'),
             }
 
             vm.title = '';
-
-<<<<<<< HEAD
+            element (DelayNode: onload) 
+            for{
+                stack.Frame(collision)(at.FrameCount: null);
+            } 
+            
             activate('./*test.js');
             MSInputMethodContext 
             function activate() { 

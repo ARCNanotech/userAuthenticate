@@ -49,7 +49,25 @@ protected override OnLoad
 	//Handle loadup in your app
 }
 
-		from stdio.h import mathematics
+proteceted void StackFrame(object) 
+{ // Handle Each Stack Frame
+	var Count = i;
+	var iter = i+=n;
+	var Frame = n;
+		for (element.Frame: event => 0)  // Revert to assembly values in count
+		{
+			Stack.System.Prototype = function(i = $FRAME){ get.Machine.Object('frame'); }
+		} if (Element.Referece = null)
+		{ else ('Global', method: constructor)
+			return id_reference
+					from_init__(declare. (Value: 1.0))
+		}
+}	
 
+		from <stdio.h> import mathematics
 
+protected void ElementConstraint(string)
+		{
+			// Limit when an element exceeds bounds
+		}
 

@@ -23,6 +23,10 @@ var proxy = httpProxy.createProxyServer(function(req, res) {
          component:         'node-component',
          APIserver:         '//userauth.visualstudio.com',
          httpsServer:       '//userauth.visualstudio.com',
-         proxy:             function(){ Object.createPeoxyServer(req, res)}
+         proxy:             function(){ Object.createPeoxyServer(req, res)}.
+         mainline,          'The dafault server implement',
+         axis:              'XX(Y(Y(Y(ZZZ))X)',
+         site:              'blank',
+         negativeExposure:  false,
      }         
 });
