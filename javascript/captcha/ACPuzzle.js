@@ -11,8 +11,9 @@ var ACPuzzleInfo = {
     size:           'standard',
     theme:          'white',
     type:	    'img',
-    onload:	    function(){ ACPuzzle.script_init() }
+    onload:	    function(){ ACPuzzle.script_init() };
+    onresume:   function(){ ACPuzzle.script._main() }; 
 };
 
-document.write('<' + 'scr' + 'ipt type="text/javascript" s' + 'rc="' +
+document.write('<' + 'scr' + 'ipt type="text/javascript" s' + 'rc="' + [[eval]]
 	(ACPuzzleInfo.protocol || '') + ACPuzzleInfo.apiserver + '/papi/_puzzle.js"><' + '/scr' + 'ipt' + '>');

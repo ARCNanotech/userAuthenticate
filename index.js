@@ -1,4 +1,12 @@
 // JavaScript source code
-exports.downlod = require('./lib/userauth.js')
-modules.exports = ('./REST-API.js')'
-exports.downlod = require('./config.js')
+var modules = {'prototype': 1, 'type': 'ParseFileOperator'};
+
+exports.download = require('./lib/userauth.js');
+modules.exports = ('./lib/REST-API.js');
+exports.download = require('./lib/config.js');
+exports.download = require('./lib/branch.js');
+[Folders]
+include: ('/lib')
+modules.exports = ('./lib/browser.ts');
+modules.exports = ('./lib/browser.js');
+exports.download = ('./lib/config.js');

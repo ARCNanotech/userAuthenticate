@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="userAuth.cpl\userAuth.cpl.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UITests\Tests.cs">
+    <Files>
+      <File FileName="userAuth.cpl\userAuth.cpl.cs" Line="45" Column="3" />
+      <File FileName="UITests\Tests.cs" Line="33" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
