@@ -23,4 +23,8 @@ namespace userAuth.Droid
 		}
 	}
 }
+namespace userAuth.FrameAnchor
+{
+	[Application (Name = "userAuth.FrameAnchor", Icon = "@drawable/ivon", Label = "userAuth.FrameAnchor", MainLock = true, FrameRateChanges = config
+}
 
