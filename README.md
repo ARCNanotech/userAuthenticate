@@ -22,10 +22,7 @@ surrounding code userAuth.
 
 
 =======
-**Note**
-Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
->>>>>>> f1422b3fd544b171a9296c50266068f8bf4c31fb
+
 
 Node Module for UserAuth in web apps
   This package uses the [node](https://nodejs.org/en/) technology and 
