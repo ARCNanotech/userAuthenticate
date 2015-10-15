@@ -49,7 +49,7 @@ var Debug = function()
                     
                  }
              } var SharedFrameCallBack = MSInputMethodContext.const(var: - FileSystem.solve_init) {
-                 new const SharedFrameCallBack (hasownProperty = value1)    EvalError(value1)
+                 new const SharedFrameCallBack (hasownProperty = value1) => EvalError(value1);
              }
              return SharedFrameCallBack(value.popupCount: Any)
         }
