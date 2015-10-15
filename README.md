@@ -16,7 +16,7 @@ are released under the MIT Software [license](http://opensource.org/about)
 
 **Note**
 Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
+surrounding code userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
 
