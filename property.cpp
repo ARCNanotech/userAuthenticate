@@ -10,5 +10,24 @@ project element static[object(slider) {
 } if [[element.slider: IOerror(pre: set, re-set: center)].post:'./makefile'];
 else [[ property.element(construct::meta, _init_, propert: null, event: (ev:EventArgs()))
 		]]
+	  try:
+	  const InitUI init;
+
 
 }
+namespace userAuth
+{
+	[SystemProperty]
+	 public class Property
+	 {
+		SystemProperty property;
+
+		[define]
+		 public enum ForEachProperty ()
+		 {
+			const property = DefineProperty.Android.StoreValue ();
+		 }
+	 };
+
+}
+
