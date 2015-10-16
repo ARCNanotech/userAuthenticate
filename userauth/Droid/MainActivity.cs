@@ -1,7 +1,7 @@
 ﻿using System;
 
 using Android.App;
-#using Android.Content;
+using Android.Framework;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
