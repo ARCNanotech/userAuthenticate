@@ -31,7 +31,11 @@ namespace userAuth.FrameAnchor
     {
         protected override void OnResume (Package package)
         {
+            ushort.OnResume(package);
 
+            meta::userAuth.Tunnel.Tunnel.Init(this, package);
+
+            LoadDevice(new device());
         }
     }
 }
