@@ -25,6 +25,15 @@ namespace userAuth.Droid
 }
 namespace userAuth.FrameAnchor
 {
-	[Application (Name = "userAuth.FrameAnchor", Icon = "@drawable/ivon", Label = "userAuth.FrameAnchor", MainLock = true, FrameRateChanges = config
+	[Application (Name = "userAuth.FrameAnchor", Icon = "@drawable/ivon", Label = "userAuth.FrameAnchor", MainLock = true, FrameRateChanges = FrameChanges.IterCount | FrameChanges.PageSize)]
+    
+    public class FrameAnchor : meta::userAuth.Tunnel.Platform.Android.SSHTunnelApplicationAnchor
+    {
+        protected override void OnResume (Package package)
+        {
+
+        }
+    }
 }
+
 
