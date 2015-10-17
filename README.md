@@ -16,16 +16,13 @@ are released under the MIT Software [license](http://opensource.org/about)
 
 **Note**
 Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
+surrounding code userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
 
 
 =======
-**Note**
-Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
->>>>>>> f1422b3fd544b171a9296c50266068f8bf4c31fb
+
 
 Node Module for UserAuth in web apps
   This package uses the [node](https://nodejs.org/en/) technology and 
@@ -59,6 +56,34 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
+  
+** Basic Scipting **
+***
+Consider the follwing basic bash script:
+``` bash
+ls -a
+git status -sb
+git checkout master
+./build
+cd binary ^
+./makefile
+else `
+chown 65331 binary/makefile.js
+./binary/makefile
+```
+
+The precding(above) script executes the following commands 
+[PREORDER]
+- 1.LIST: list the contents of current directory and append
+   - 2. GIT: check the status of current repository, showing commit attribute
+   - 3. GIT: Compare the current and master branch to determine if there are differences that could be overritted.
+      - 4. Linux/Bash: Build current package [userAuth-v1.0.9] *Note*: Accepts No Arguments
+      - 5. Linux/Bash: Run the makefile used to finalize the build\install process. Usually located in "app__root/binary"
+      - 6.Linux/Bash: Add ownership privileges to property of referenced file. [/binary/makefile.js]
+         - 7. CMD: Enter the referenced diredtory [binary]
+         - 8. charAt(14,11): The '^' character is used in Win PS to indicate an additional line of input.
+            - 9.ELSE: Standard `else` operator, notable in many programming languages and protocols.
+                 - 10. FINALLY: Run the compiled Makedile; from app_root_dir
 
 Config
 ======

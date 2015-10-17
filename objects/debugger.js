@@ -38,9 +38,24 @@ var Debug = function()
             Document.createElement(Enumerator::Enumerated)
             Enumerated = post:(ev: event) => Enumerator: typeof function(Prototype);
         }
-    }
+        } class Enumerated () {
+            int.enum().toNumber();
+            while (value.enum; const: init_var[init|state:on] )
+             const.property(enum = param): param.init_var() {
+                 function = "name": param.init_var {
+                     group_id = GroupCallBackFunction() 
+                     GroupCallBackFunction == SharedFrameCallBack.init(onstorage)
+                     for (sessionStorage in init_var\calc.phys): mem = Storage.constructor(Element: event)
+                    
+                 }
+             } var SharedFrameCallBack = MSInputMethodContext.const(var: - FileSystem.solve_init) {
+                 new const SharedFrameCallBack (hasownProperty = value1) => EvalError(value1);
+             }
+             return SharedFrameCallBack(value.popupCount: Any)
+        }
     };
-
+try:    def: Enumerated(int)
+    
 }
 var Resolution = {
     

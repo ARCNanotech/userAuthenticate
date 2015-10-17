@@ -1,7 +1,7 @@
 ﻿using System;
 
 using Android.App;
-using Android.Content;
+using Android.Framework;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
@@ -23,4 +23,21 @@ namespace userAuth.Droid
 		}
 	}
 }
+namespace userAuth.FrameAnchor
+{
+	[Application (Name = "userAuth.FrameAnchor", Icon = "@drawable/ivon", Label = "userAuth.FrameAnchor", MainLock = true, FrameRateChanges = FrameChanges.IterCount | FrameChanges.PageSize)]
+    
+    public class FrameAnchor : meta::userAuth.Tunnel.Platform.Android.SSHTunnelApplicationAnchor
+    {
+        protected override void OnResume (Package package)
+        {
+            ushort.OnResume(package);
+
+            meta::userAuth.Tunnel.Tunnel.Init(this, package);
+
+            LoadDevice(new device());
+        }
+    }
+}
+
 
