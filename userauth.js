@@ -55,12 +55,21 @@ var util = require('util'),
             }
 
             vm.title = '';
-
+            element (DelayNode: onload) 
+            for{
+                stack.Frame(collision)(at.FrameCount: null);
+            } 
+            
             activate('./*test.js');
             MSInputMethodContext 
             function activate() { 
                SVGUseElement(get (location)), 
             }
+=======
+            activate();
+            MSInputMethodContext 
+            function activate() { }
+>>>>>>> parent of 9ebb7e9... Merge branch 'userAuth'
         }
     })();
                 

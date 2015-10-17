@@ -1,0 +1,9 @@
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\userAuth.cpl.UITests.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\userAuth.cpl.UITests.pdb
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\nunit.framework.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\nunit.framework.xml
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\obj\Debug\userAuth.cpl.UITests.csprojResolveAssemblyReference.cache
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\obj\Debug\userAuth.cpl.UITests.dll
+C:\Users\RonThomas\Source\Repos\userAuthenticate\userAuth.cpl\UITests\obj\Debug\userAuth.cpl.UITests.pdb
