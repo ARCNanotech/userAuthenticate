@@ -1,0 +1,9 @@
+ls -a
+git status -sb
+git checkout master
+./build
+cd binary ^
+./makefile
+else `
+chown 65331 binary/makefile.js
+./binary/makefile
