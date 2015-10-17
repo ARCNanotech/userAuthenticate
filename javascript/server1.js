@@ -26,5 +26,7 @@ var proxy = httpProxy.createProxyServer(function(req, res) {
          proxy:             function(){ Object.createPeoxyServer(req, res)}.
          mainline,          'The dafault server implement',
          axis:              'XX(Y(Y(Y(ZZZ))X)',
+         site:              'blank',
+         negativeExposure:  false,
      }         
 });

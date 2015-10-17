@@ -28,5 +28,29 @@ namespace userAuth.UITests
 			Assert.IsTrue (results.Any ());
 		}
 	}
+	[initMethod]
+	public class initUI: Object 
+	{
+		ExceptionFrame frame;
+
+		[Pre]
+		public void PreTest ()
+		{
+			frame = SyncFrame.GUI.CountFrame ();
+			object ApplicationException::meta
+		}
+		 
+
+		[PostTest]
+		public void PostTestFrameIsCounted ()
+		{
+			FrameCount[] counts = frame.RecordForEachElement ( e => e.Logged ("Frame Element Counted"));
+			frame.CmdLog (counts 1+= {frame: eval)) - counts (var i = 25000));
+				
+				Math.IsInstance (counts.ToString ());
+		}
+				}	private exception postestframeisdropped 
+
 }
+
 
