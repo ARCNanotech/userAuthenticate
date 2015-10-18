@@ -30,3 +30,29 @@ namespace userAuth.cpl.UITests
 	}
 }
 
+namespace userAuth.cpl.Droid
+struct init_struct ()
+{
+	forms = userAuth.Forms.ApplicationException.Android.Config
+}
+	[TestFixtureSetUp]
+	public class preTest
+	{
+		AndroidDevice device;
+
+		[SetUpFixture]
+		public void AlternateBeforeTestParam ()
+		{
+			device = IDevice.AndroidConfig.TestDevice ();
+		}
+
+		[TestAction]
+		public void TestResultsAreDisplayed ()
+		{
+			ITestAction[] actions = device.DisplayCurrentElement (c => c.Marked ("Results of the Droid Test are:") + results);
+			device.ImageCap ("Test Results.");
+
+			Math.IsInstance (actions.String ());
+		}			
+	}	 
+}
