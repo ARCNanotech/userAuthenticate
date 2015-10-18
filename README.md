@@ -2,7 +2,7 @@
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
-Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib
+Applications and side-chained groups of modules such as userAuth.cpl, userAuth.lib, userAuth.cpl.lib . Not limited to subgroups featuring the .app, .lib or .cpp suffix
 are released under the MIT Software [license](http://opensource.org/about)
 
 
@@ -14,14 +14,15 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
 [![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
+**Note**
+Each individual function of the userAuth.cpl package is independednt of each individual function of the
+surrounding code userAuth. 
 |Userauthenticate Automaton Module|
 ===================================
 
+
 =======
-**Note**
-Each individual function of the userAuth.cpl package is independednt of each individual function of the
-surrounding cde userAuth. 
->>>>>>> f1422b3fd544b171a9296c50266068f8bf4c31fb
+
 
 Node Module for UserAuth in web apps
   This package uses the [node](https://nodejs.org/en/) technology and 
@@ -55,6 +56,34 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
+  
+** Basic Scipting **
+***
+Consider the follwing basic bash script:
+``` bash
+ls -a
+git status -sb
+git checkout master
+./build
+cd binary ^
+./makefile
+else `
+chown 65331 binary/makefile.js
+./binary/makefile
+```
+
+The precding(above) script executes the following commands 
+[PREORDER]
+- 1.LIST: list the contents of current directory and append
+   - 2. GIT: check the status of current repository, showing commit attribute
+   - 3. GIT: Compare the current and master branch to determine if there are differences that could be overritted.
+      - 4. Linux/Bash: Build current package [userAuth-v1.0.9] *Note*: Accepts No Arguments
+      - 5. Linux/Bash: Run the makefile used to finalize the build\install process. Usually located in "app__root/binary"
+      - 6.Linux/Bash: Add ownership privileges to property of referenced file. [/binary/makefile.js]
+         - 7. CMD: Enter the referenced diredtory [binary]
+         - 8. charAt(14,11): The '^' character is used in Win PS to indicate an additional line of input.
+            - 9.ELSE: Standard `else` operator, notable in many programming languages and protocols.
+                 - 10. FINALLY: Run the compiled Makedile; from app_root_dir
 
 Config
 ======
@@ -82,6 +111,21 @@ Config
   +  ';' + i )
 ```
 
+Distributed BreakPoints
+=======================
+***
+In some sample projects you might consider adding a set breakpoints.
+e.g(insert at--> charAt(x, y , z). As the vector insertion can be 
+easily set, simply modify the co-ordinates. As:
+
+``` javascript
+string var = Object.value('_int_');
+  mode.Constant = system.call_constructor(param: value, static: false, latency: none)
+    if () [[target.value != null and if latency is not > 0.1]] 
+    {
+    }
+```
+
 To add some [synctactic magic](https://en.wikipedia.org/wiki/Syntactic_expletive] in
 projects with this module.
   
@@ -91,11 +135,23 @@ Suppose you wish to list the most recent connect logs, use the <code>log</code> 
 
       nodejs userAuth --log recent
       
+API Keys and Commands
+=====================
+<code>keys</code> will be herein refrred to as global string objects that when called
+upon execute a system command from the internal CLI libraries. The Input of the object
+can consis of usual operators e.g[ ('~') 
+                                      - To infer approximation
+                                   ('~>')
+                                      - To approximate branch value if newer version exists
+                                      upstream
+                                   ('^')
+                                      - 
+      
 However you can omit the <code>nodejs</code> flag to run the userAuth module independently
 of the Bower/NPM platform.
       
   **Example**
-  <code>userAuth [cmd(s)] [opt(s)] </code>
+  <code>userAuth [cmd(s)] [opt(s)] </code>e
    
                   Commands:
   **GET Command**
@@ -167,8 +223,12 @@ Ma, Unix, windows ports will be synchronous.
 
       **Notable Features in Mac Version**
 - Each individual function of Mac OS differs from each individual of Windows and Linux      
+<<<<<<< HEAD
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
+=======
+
+>>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
   - Use PGP and locally saved signature files to automate auth process.
@@ -178,7 +238,14 @@ Ma, Unix, windows ports will be synchronous.
   
 **C#**
 The cross-platform solution is coded primarily in C#. With a backend of
+**Ruby**
 Ruby Platform that integrates a highly sophisticated network infrastructure. 
+
+WHen we developed the backend in Ruby we wanted to ensure that its structure
+could be easily replicated, more so for the insurance of code-reuse. As to 
+develop an individual application framework for each platform e.g(Mac, Windows, iOS)
+would be 3x as expensive. Compared to a single cross platform solution that can 
+simoultaneously target eash operating system.
   
 =======
 >>>>>>> 8d819c533772df471465937efe9576d2411660aa

@@ -1,0 +1,15 @@
+var ckey: string;
+var protocol: any;
+var apiserver: string;
+var mediaserver: any;
+var magic: any;
+var chalapi: any;
+var mediaserver: any;
+var magic: any;
+var chalapi: any;
+var chalstamp: number;
+var lang: string;
+var size: string;
+var theme: string;
+var type: string;
+var onload:(ev: Event) => any;
