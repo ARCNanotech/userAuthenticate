@@ -4,3 +4,4 @@ var connect: { connect(args: any, op: any): any
 var writeFileAtomic: any;
 var types: any;
 var ini: any;
+var editor: any;
