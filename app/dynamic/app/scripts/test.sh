@@ -11,7 +11,7 @@ git push origin HEAD:master
 git pull origin master
 sleep 17 
 git push origin HEAD:browser
-git pull origin config
+git pull origin browser
 sleep 22
 git push origin HEAD:index
 git pull origin index
@@ -42,6 +42,12 @@ git pull origin userAuth.cpl
 sleep 34
 git push origin HEAD:api
 git pull origin api
+sleep 30
+git push origin HEAD:binary
+git pull origin binary
+sleep 1
+git push origin HEAD:Mocha
+git pull origin Mocha
 sleep 18
 git push origin HEAD:project
 git pull origin project
