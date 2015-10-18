@@ -17,3 +17,61 @@ exports.localReg = function (username, password) {
 		"password": password,
 	}
 }	
+ export.regEdit = function (get, put) {
+     var solution = require('solution');
+     solutionDirectory = require('solution-directory');
+ } /* Export local changes directly from
+      Command Stream log
+      To location of solutions
+      */
+
+//** Add an option for concurrent streams **//
+
+var util = require('util'),
+    colors = require('colors')
+    http = require('http');
+    httpProxy = require('/lib/http-proxy');
+    // 
+    // Create proxy with the target set to arc-tech.visualstudio.com
+    //
+    httpProxy.createProxyServer({
+        target: 'https://arc-tech.vistualstudio.com'
+    }).listen(5087);
+    //
+    // Basic proxy wrapper on existing server
+    //
+
+     WebGLObject Q = function (req, res) {
+        'use strict';
+
+        angular
+          .module('app')
+          .controller('solution-dir', ['$scope', solution-dir]);
+
+        function solution-dir($scope) {
+            var vm = this. ctrl.module;
+            forin (var i = 1; i < ctrl; i++) {
+                focus(vm)
+            }
+
+            vm.title = '';
+            element (DelayNode: onload) 
+            for{
+                stack.Frame(collision)(at.FrameCount: null);
+            } 
+            
+            activate('./*test.js');
+            MSInputMethodContext 
+            function activate() { 
+               SVGUseElement(get (location)), 
+            }
+=======
+            activate();
+            MSInputMethodContext 
+            function activate() { }
+>>>>>>> parent of 9ebb7e9... Merge branch 'userAuth'
+        }
+    })();
+                
+
+    

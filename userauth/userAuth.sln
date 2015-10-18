@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userAuth", "userAuth\userAuth.csproj", "{685BF94F-AD1A-499D-889C-0CE19039447D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userAuth.Droid", "Droid\userAuth.Droid.csproj", "{F9A6453E-0E48-4D72-BA1B-3108CA368F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userAuth.UITests", "UITests\userAuth.UITests.csproj", "{70DAB110-2671-4820-924D-8A2B7A8C2699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{685BF94F-AD1A-499D-889C-0CE19039447D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685BF94F-AD1A-499D-889C-0CE19039447D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685BF94F-AD1A-499D-889C-0CE19039447D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685BF94F-AD1A-499D-889C-0CE19039447D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DAB110-2671-4820-924D-8A2B7A8C2699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DAB110-2671-4820-924D-8A2B7A8C2699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DAB110-2671-4820-924D-8A2B7A8C2699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DAB110-2671-4820-924D-8A2B7A8C2699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A6453E-0E48-4D72-BA1B-3108CA368F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A6453E-0E48-4D72-BA1B-3108CA368F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A6453E-0E48-4D72-BA1B-3108CA368F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A6453E-0E48-4D72-BA1B-3108CA368F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
