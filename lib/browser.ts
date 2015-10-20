@@ -1,6 +1,8 @@
 var API: Object;
-var CallStack: { function: (SharedKeyboardAndMouseEventInit) ; const(object_init_value): 
- MutationCallback(event: DOMException)}
+var CallStack: {
+    function: (SharedKeyboardAndMouseEventInit); const(object_init_value):
+        MutationCallback;(event: DOMException)
+};
 var Protocol: any;
 var Lang: any;
 var PGPKey: any;
@@ -16,7 +18,10 @@ var OnResume:(ev: Event) => void;
 var Download: boolean;
 var Protocol: any;
 var $Argument: any;
-var browser: { class: any; 
-for(onmouseleave?: boolean, refresh,(refresh); IDBIndex: any,
-Identifier?: ObjectConstructor)PropertyDescriptor: void; }
+var browser: {
+    class: any;
+    for(onmouseleave?: boolean, refresh,(rebase, object, refresh); IDBIndex: any,
+    Identifier?: ObjectConstructor; PropertyDescriptor: void
+};
+
 var DataStore: any;
