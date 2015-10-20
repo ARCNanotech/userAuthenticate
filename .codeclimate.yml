@@ -1,0 +1,23 @@
+# Save as .codeclimate.yml (note leading .) in project root directory
+languages:
+  Ruby: true
+  JavaScript: true
+  PHP: true
+  Python: true
+  C: true
+  C++: true
+# exclude_paths:
+# - "foo/bar.rb"
+  exclude_paths:
+  - "../../application.rb"
+  git pull
+# Save as .codeclimate.yml (note leading .) in project root directory
+languages:
+  Ruby: true
+  JavaScript: true
+  PHP: true
+  Python: true
+# exclude_paths:
+# - "foo/bar.rb"
+  exclude_paths:
+  - "../../application.rb"
