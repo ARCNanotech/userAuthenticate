@@ -1,7 +1,9 @@
-ls -v
+ls -a
 git status -sb
 git add app/dynamic/app/scripts/test.sh
-.\app/dynamic/app/scripts/test.sh
+cd app/dynamic/app/scripts/
+.\test.sh
+cd C:/Users/RonThomas/Source/Repos/userAuthenticate/
 git commit -m "Modify File app/dynamic/app/scripts/test.sh"
 git push origin userAuth
 git push origin HEAD:userAuth
@@ -66,7 +68,7 @@ git pull origin project
 sleep 10
 git push orgin HEAD:javascript
 git pull origin javascript
-sleeo 17
+sleep 17
 git push origin HEAD:package
 git pull origin package
 sleep 45
