@@ -136,7 +136,7 @@ API Keys and Commands
 =====================
 <code>keys</code> will be herein refrred to as global string objects that when called
 upon execute a system command from the internal CLI libraries. The Input of the object
-can consis of usual operators e.g[ ('~') 
+can consist of usual operators e.g[ ('~') 
                                       - To infer approximation
                                    ('~>')
                                       - To approximate branch value if newer version exists
