@@ -76,7 +76,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ProjectExtensions>
-    <Compiler Include="userAuth/Droid/Resources/AltActivity.cs"></Compiler>
+    <Compile Include="userAuth/Droid/Resources/AltActivity.cs"></Compile>
+    <Compile Imclude="userAuth/Droid/Resources/FrameCount.cs"></Compile>
   </ProjectExtensions>
   <ItemGroup>
     <Folder Include="userAuth/"></Folder>
