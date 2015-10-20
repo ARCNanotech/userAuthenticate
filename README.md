@@ -1,4 +1,4 @@
-# userAuthenticate Automaton Module
+# userAuthenticate
 **This is the repository for userAuth.**
 
 The applications userAuthenticate and the truncated userAuth, including all subclassed 
@@ -11,8 +11,6 @@ are released under the MIT Software [license](http://opensource.org/about)
 [![Project Status](http://stillmaintained.com/ArcanaMagus/userAuthenticate.png)](http://stillmaintained.com/ArcanaMagus/userAuthenticate)
 [![Coverage Status](https://coveralls.io/repos/ArcanaMagus/userAuthenticate/badge.svg?branch=userAuth&service=github)](https://coveralls.io/github/ArcanaMagus/userAuthenticate?branch=userAuth)
 [![Code Climate](https://codeclimate.com/github/ArcanaMagus/userAuthenticate/badges/gpa.svg)](https://codeclimate.com/github/ArcanaMagus/userAuthenticate)
-[![devDependency Status](https://david-dm.org/gruntjs/grunt/dev-status.svg)](https://david-dm.org/gruntjs/grunt#info=devDependencies)
-[![Dependency Status](https://david-dm.org/bower/bower.svg)](https://david-dm.org/bower/bower)
 
 **Note**
 Each individual function of the userAuth.cpl package is independednt of each individual function of the
@@ -25,11 +23,10 @@ surrounding code userAuth.
 
 
 Node Module for UserAuth in web apps
-  This package uses the [node](https://nodejs.org/en/) technology and 
-   concurrent stream processing architecture, originally developed by 
-  [Arcware](https://arcware.com) In implementing the formal programming
-  standard for network switches , make it possible for [Combinatorial optimization](https://en.wikipedia.org/wiki/Combinatorics#Combinatorial_Optimization),
-  and other devices that require fast translation of big-data sets.
+  This package uses the node infrastructure, for
+  creating highly scalable network platforms.
+   
+  **Featuring certified SSL protection**
   
   - Applying the dynamic platform of, buffer-targeted elements,
   This vector can implement a variety of tools for interacting,
@@ -56,7 +53,7 @@ your system.
   This module uses a dynamic circular buffer system where there is,
   a set of accepted commands to the interpreter. These are standard,
   linux type commands.
-  
+
 ** Basic Scipting **
 ***
 Consider the follwing basic bash script:
@@ -198,13 +195,7 @@ String, List, Array
  <code>set VARIABLE=value</code>
  <code>(**e.x** userAuth set var=1)</code>
   
-<<< Templates:
-
-Examples
-========
-  Here is a simple example in ruby module that invokes
-  the target userAuth
-  
+<<<<<<< Templates:
 ```ruby 
   for (each userauth(Module): ifExists) {
     if != Module.aspx.Definition();
@@ -227,7 +218,7 @@ Ma, Unix, windows ports will be synchronous.
  - Entirely new source code anf cunctionality will be built into iOS future ports.
  - To include modular capabilities in Cross-Platform solutions of this source
 =======
-
+ 
 >>>>>>>  Update network configuration
  
   (~~Apply cryptographic method of encryption accross all user data types~~)
