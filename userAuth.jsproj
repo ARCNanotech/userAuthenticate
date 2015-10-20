@@ -10,6 +10,10 @@
       <Configuration>Debug</Configuration>
       <Platform>iOS</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS9">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS9</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Windows-AnyCPU">
       <Configuration>Debug</Configuration>
       <Platform>Windows-AnyCPU</Platform>
@@ -42,6 +46,10 @@
       <Configuration>Release</Configuration>
       <Platform>iOS</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS9">
+      <Configuration>Release</Configuration>
+      <Platform>iOS9</Platform>
+</ProjectConfiguration>
     <ProjectConfiguration Include="Release|Windows-AnyCPU">
       <Configuration>Release</Configuration>
       <Platform>Windows-AnyCPU</Platform>
@@ -66,6 +74,15 @@
       <Configuration>Release</Configuration>
       <Platform>Windows Phone (Universal)</Platform>
     </ProjectConfiguration>
+  </ItemGroup>
+  <ProjectExtensions>
+    <Compile Include="userAuth/Droid/Resources/AltActivity.cs"></Compile>
+    <Compile Imclude="userAuth/Droid/Resources/FrameCount.cs"></Compile>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="userAuth/"></Folder>
+    <Folder Include="userAuth/Droid/"></Folder>
+    <Folder Include="userAuth/Droid/Resources/"></Folder>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4a0dddb5-7a95-4fbf-97cc-616d07737a77}" />
