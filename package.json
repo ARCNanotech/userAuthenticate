@@ -2,6 +2,10 @@
   "author": {
     "email": "ron.thomas2@student.tdsb.on.ca",
     "url": "http://bit.ly/arcware",
+    ======= =======
+    //package.json
+    {
+      >>>>>>> package
   },
   "name": "userAuth",
   "description": "authentication for web-app users and admins",
@@ -81,7 +85,29 @@
       "port": "8080"
     }
   },
-  
+    "dependencies": {
+      "bcrypt-nodejs": "^0.0.3",
+      "express": "^4.13.2",
+      "express3-handlebars": "^0.5.2",
+      "orchestrate": "^0.4.6",
+      "passport": "^0.2.2",
+      "passport-facebook": "^2.0.0",
+      "passport-google": "^0.3.0",
+      "passport-local": "^1.0.0",
+      "passport-twitter": "^1.0.3",
+      "passport-youtube": "^0.0.6",
+      "q": "^1.4.1"
+    }
+  }
+  . <<<<<<<
+  HEAD =======
+}, "name": "userauth", "config": {
+  "port": "8080"
+} }, "description": "authentication for web-apps", "version": "0.1.0", "repository": {
+  "type": "git",
+  "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
+  },
+  "main": "userauth.js",
   "Dependencies": {
     "bcryptjs": "^2.2.0",
     "bcrypt-nodejs": "^0.0.3",
