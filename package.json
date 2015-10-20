@@ -46,16 +46,19 @@
     },
     "tunnelIdentifier": "tunnel4",
     "parentTunnel": "my-tun2",
-    "screenResolution": "2560x1600"
+    "screenResolution": "2560x1600",
     "timeZone": "Eastern",
     "chromedriverVersion": "2.15",
     "iedriverVersion": "x64_2.46.0",
     "avoidProxy": false,
     "public": "share",
     "deviceOrientation": "landscape"
+
+
+
   },
 
-  "showMissingDevOptionalSubPackages": { }
+  "showMissingDevOptionalSubPackages": { },
 
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -73,18 +76,12 @@
     "wd-js": "*",
   },
   "bugs": {
-    "url": "https://github.com/ArcanaMagus/userAuthenticate"
+    "url": "https://github.com/ArcanaMagus/userAuthenticate",
     "config": {
       "port": "8080"
     }
   },
-  "description": "authentication for web-apps",
-  "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ArcanaMagus/userAuthenticate.git",
-  },
-  "main": "userauth.js",
+  
   "Dependencies": {
     "bcryptjs": "^2.2.0",
     "bcrypt-nodejs": "^0.0.3",
@@ -105,7 +102,8 @@
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.3",
     "q": "^1.4.1",
-    "bower": "#1.0.1"
+    "bower": "#1.0.1",
+    "graceful-fs":  "^4.1.2",
   },
   "scripts": {
     "start": "npm_package_config_port userauth.js"
