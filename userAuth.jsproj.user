@@ -4,4 +4,7 @@
     <ReferenceCachePath>C:\Users\RonThomas\AppData\Local\Temp\lyrrbfc0_userAuth_refcache</ReferenceCachePath>
     <ToolsVersionPromptShown>1.6</ToolsVersionPromptShown>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|iOS'">
+    <DebuggerFlavor>iOSEmulatoriPhone9</DebuggerFlavor>
+   </PropertyGroup>
 </Project>
