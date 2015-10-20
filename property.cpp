@@ -27,6 +27,7 @@ namespace userAuth
 		 {
 			const property = DefineProperty.Android.StoreValue ();
 		 }
+		cout << ("This is System Property Element") + property
 	 };
 
 }
